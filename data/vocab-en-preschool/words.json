@@ -1,0 +1,1924 @@
+{
+  "version": "1.0",
+  "source": "pig-english",
+  "note": "Preschool English vocabulary (~4-6 yr) — household items kids can point to and name. No abstract words.",
+  "count": 152,
+  "words": [
+    {
+      "id": "cat",
+      "en": "cat",
+      "zh": "貓",
+      "emoji": "🐱",
+      "syllables": [
+        "cat"
+      ],
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "dog",
+      "en": "dog",
+      "zh": "狗",
+      "emoji": "🐶",
+      "syllables": [
+        "dog"
+      ],
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "fish",
+      "en": "fish",
+      "zh": "魚",
+      "emoji": "🐟",
+      "syllables": [
+        "fish"
+      ],
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "bird",
+      "en": "bird",
+      "zh": "鳥",
+      "emoji": "🐦",
+      "syllables": [
+        "bird"
+      ],
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "rabbit",
+      "en": "rabbit",
+      "zh": "兔子",
+      "emoji": "🐰",
+      "syllables": [
+        "rab",
+        "bit"
+      ],
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "pig",
+      "en": "pig",
+      "zh": "豬",
+      "emoji": "🐷",
+      "syllables": [
+        "pig"
+      ],
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "cow",
+      "en": "cow",
+      "zh": "牛",
+      "emoji": "🐮",
+      "syllables": [
+        "cow"
+      ],
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "duck",
+      "en": "duck",
+      "zh": "鴨",
+      "emoji": "🦆",
+      "syllables": [
+        "duck"
+      ],
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "bee",
+      "en": "bee",
+      "zh": "蜜蜂",
+      "emoji": "🐝",
+      "syllables": [
+        "bee"
+      ],
+      "tags": [
+        "animal",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ant",
+      "en": "ant",
+      "zh": "螞蟻",
+      "emoji": "🐜",
+      "syllables": [
+        "ant"
+      ],
+      "tags": [
+        "animal",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "apple",
+      "en": "apple",
+      "zh": "蘋果",
+      "emoji": "🍎",
+      "syllables": [
+        "ap",
+        "ple"
+      ],
+      "tags": [
+        "fruit",
+        "food"
+      ]
+    },
+    {
+      "id": "banana",
+      "en": "banana",
+      "zh": "香蕉",
+      "emoji": "🍌",
+      "syllables": [
+        "ba",
+        "na",
+        "na"
+      ],
+      "tags": [
+        "fruit",
+        "food"
+      ]
+    },
+    {
+      "id": "grape",
+      "en": "grape",
+      "zh": "葡萄",
+      "emoji": "🍇",
+      "syllables": [
+        "grape"
+      ],
+      "tags": [
+        "fruit",
+        "food"
+      ]
+    },
+    {
+      "id": "orange",
+      "en": "orange",
+      "zh": "橘子",
+      "emoji": "🍊",
+      "syllables": [
+        "or",
+        "ange"
+      ],
+      "tags": [
+        "fruit",
+        "food",
+        "color"
+      ]
+    },
+    {
+      "id": "strawberry",
+      "en": "strawberry",
+      "zh": "草莓",
+      "emoji": "🍓",
+      "syllables": [
+        "straw",
+        "ber",
+        "ry"
+      ],
+      "tags": [
+        "fruit",
+        "food"
+      ]
+    },
+    {
+      "id": "bread",
+      "en": "bread",
+      "zh": "麵包",
+      "emoji": "🍞",
+      "syllables": [
+        "bread"
+      ],
+      "tags": [
+        "food",
+        "kitchen"
+      ]
+    },
+    {
+      "id": "rice",
+      "en": "rice",
+      "zh": "飯",
+      "emoji": "🍚",
+      "syllables": [
+        "rice"
+      ],
+      "tags": [
+        "food",
+        "kitchen"
+      ]
+    },
+    {
+      "id": "egg",
+      "en": "egg",
+      "zh": "蛋",
+      "emoji": "🥚",
+      "syllables": [
+        "egg"
+      ],
+      "tags": [
+        "food",
+        "kitchen"
+      ]
+    },
+    {
+      "id": "cake",
+      "en": "cake",
+      "zh": "蛋糕",
+      "emoji": "🍰",
+      "syllables": [
+        "cake"
+      ],
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "cookie",
+      "en": "cookie",
+      "zh": "餅乾",
+      "emoji": "🍪",
+      "syllables": [
+        "cook",
+        "ie"
+      ],
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "noodle",
+      "en": "noodle",
+      "zh": "麵條",
+      "emoji": "🍜",
+      "syllables": [
+        "noo",
+        "dle"
+      ],
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "water",
+      "en": "water",
+      "zh": "水",
+      "emoji": "💧",
+      "syllables": [
+        "wa",
+        "ter"
+      ],
+      "tags": [
+        "drink",
+        "nature"
+      ]
+    },
+    {
+      "id": "milk",
+      "en": "milk",
+      "zh": "牛奶",
+      "emoji": "🥛",
+      "syllables": [
+        "milk"
+      ],
+      "tags": [
+        "drink",
+        "kitchen"
+      ]
+    },
+    {
+      "id": "juice",
+      "en": "juice",
+      "zh": "果汁",
+      "emoji": "🧃",
+      "syllables": [
+        "juice"
+      ],
+      "tags": [
+        "drink"
+      ]
+    },
+    {
+      "id": "tea",
+      "en": "tea",
+      "zh": "茶",
+      "emoji": "🍵",
+      "syllables": [
+        "tea"
+      ],
+      "tags": [
+        "drink"
+      ]
+    },
+    {
+      "id": "cup",
+      "en": "cup",
+      "zh": "杯子",
+      "emoji": "🥤",
+      "syllables": [
+        "cup"
+      ],
+      "tags": [
+        "kitchen",
+        "home"
+      ]
+    },
+    {
+      "id": "spoon",
+      "en": "spoon",
+      "zh": "湯匙",
+      "emoji": "🥄",
+      "syllables": [
+        "spoon"
+      ],
+      "tags": [
+        "kitchen",
+        "home"
+      ]
+    },
+    {
+      "id": "fork",
+      "en": "fork",
+      "zh": "叉子",
+      "emoji": "🍴",
+      "syllables": [
+        "fork"
+      ],
+      "tags": [
+        "kitchen",
+        "home"
+      ]
+    },
+    {
+      "id": "plate",
+      "en": "plate",
+      "zh": "盤子",
+      "emoji": "🍽️",
+      "syllables": [
+        "plate"
+      ],
+      "tags": [
+        "kitchen",
+        "home"
+      ]
+    },
+    {
+      "id": "bowl",
+      "en": "bowl",
+      "zh": "碗",
+      "emoji": "🥣",
+      "syllables": [
+        "bowl"
+      ],
+      "tags": [
+        "kitchen",
+        "home"
+      ]
+    },
+    {
+      "id": "chair",
+      "en": "chair",
+      "zh": "椅子",
+      "emoji": "🪑",
+      "syllables": [
+        "chair"
+      ],
+      "tags": [
+        "home"
+      ]
+    },
+    {
+      "id": "bed",
+      "en": "bed",
+      "zh": "床",
+      "emoji": "🛏️",
+      "syllables": [
+        "bed"
+      ],
+      "tags": [
+        "bedroom",
+        "home"
+      ]
+    },
+    {
+      "id": "sofa",
+      "en": "sofa",
+      "zh": "沙發",
+      "emoji": "🛋️",
+      "syllables": [
+        "so",
+        "fa"
+      ],
+      "tags": [
+        "home"
+      ]
+    },
+    {
+      "id": "lamp",
+      "en": "lamp",
+      "zh": "燈",
+      "emoji": "💡",
+      "syllables": [
+        "lamp"
+      ],
+      "tags": [
+        "home"
+      ]
+    },
+    {
+      "id": "door",
+      "en": "door",
+      "zh": "門",
+      "emoji": "🚪",
+      "syllables": [
+        "door"
+      ],
+      "tags": [
+        "home"
+      ]
+    },
+    {
+      "id": "clock",
+      "en": "clock",
+      "zh": "時鐘",
+      "emoji": "⏰",
+      "syllables": [
+        "clock"
+      ],
+      "tags": [
+        "home"
+      ]
+    },
+    {
+      "id": "key",
+      "en": "key",
+      "zh": "鑰匙",
+      "emoji": "🔑",
+      "syllables": [
+        "key"
+      ],
+      "tags": [
+        "home"
+      ]
+    },
+    {
+      "id": "tv",
+      "en": "TV",
+      "zh": "電視",
+      "emoji": "📺",
+      "syllables": [
+        "T",
+        "V"
+      ],
+      "tags": [
+        "home"
+      ]
+    },
+    {
+      "id": "phone",
+      "en": "phone",
+      "zh": "電話",
+      "emoji": "📱",
+      "syllables": [
+        "phone"
+      ],
+      "tags": [
+        "home"
+      ]
+    },
+    {
+      "id": "soap",
+      "en": "soap",
+      "zh": "肥皂",
+      "emoji": "🧼",
+      "syllables": [
+        "soap"
+      ],
+      "tags": [
+        "bathroom"
+      ]
+    },
+    {
+      "id": "towel",
+      "en": "towel",
+      "zh": "毛巾",
+      "emoji": "🧻",
+      "syllables": [
+        "tow",
+        "el"
+      ],
+      "tags": [
+        "bathroom"
+      ]
+    },
+    {
+      "id": "toothbrush",
+      "en": "toothbrush",
+      "zh": "牙刷",
+      "emoji": "🪥",
+      "syllables": [
+        "tooth",
+        "brush"
+      ],
+      "tags": [
+        "bathroom"
+      ]
+    },
+    {
+      "id": "hat",
+      "en": "hat",
+      "zh": "帽子",
+      "emoji": "🎩",
+      "syllables": [
+        "hat"
+      ],
+      "tags": [
+        "clothes"
+      ]
+    },
+    {
+      "id": "shirt",
+      "en": "shirt",
+      "zh": "上衣",
+      "emoji": "👕",
+      "syllables": [
+        "shirt"
+      ],
+      "tags": [
+        "clothes"
+      ]
+    },
+    {
+      "id": "pants",
+      "en": "pants",
+      "zh": "褲子",
+      "emoji": "👖",
+      "syllables": [
+        "pants"
+      ],
+      "tags": [
+        "clothes"
+      ]
+    },
+    {
+      "id": "shoes",
+      "en": "shoes",
+      "zh": "鞋子",
+      "emoji": "👟",
+      "syllables": [
+        "shoes"
+      ],
+      "tags": [
+        "clothes"
+      ]
+    },
+    {
+      "id": "socks",
+      "en": "socks",
+      "zh": "襪子",
+      "emoji": "🧦",
+      "syllables": [
+        "socks"
+      ],
+      "tags": [
+        "clothes"
+      ]
+    },
+    {
+      "id": "bag",
+      "en": "bag",
+      "zh": "包包",
+      "emoji": "🎒",
+      "syllables": [
+        "bag"
+      ],
+      "tags": [
+        "clothes",
+        "school"
+      ]
+    },
+    {
+      "id": "ball",
+      "en": "ball",
+      "zh": "球",
+      "emoji": "⚽",
+      "syllables": [
+        "ball"
+      ],
+      "tags": [
+        "toy",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "doll",
+      "en": "doll",
+      "zh": "娃娃",
+      "emoji": "🪆",
+      "syllables": [
+        "doll"
+      ],
+      "tags": [
+        "toy"
+      ]
+    },
+    {
+      "id": "blocks",
+      "en": "blocks",
+      "zh": "積木",
+      "emoji": "🧱",
+      "syllables": [
+        "blocks"
+      ],
+      "tags": [
+        "toy"
+      ]
+    },
+    {
+      "id": "kite",
+      "en": "kite",
+      "zh": "風箏",
+      "emoji": "🪁",
+      "syllables": [
+        "kite"
+      ],
+      "tags": [
+        "toy",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "drum",
+      "en": "drum",
+      "zh": "鼓",
+      "emoji": "🥁",
+      "syllables": [
+        "drum"
+      ],
+      "tags": [
+        "toy"
+      ]
+    },
+    {
+      "id": "book",
+      "en": "book",
+      "zh": "書",
+      "emoji": "📖",
+      "syllables": [
+        "book"
+      ],
+      "tags": [
+        "school",
+        "home"
+      ]
+    },
+    {
+      "id": "pen",
+      "en": "pen",
+      "zh": "筆",
+      "emoji": "🖊️",
+      "syllables": [
+        "pen"
+      ],
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "pencil",
+      "en": "pencil",
+      "zh": "鉛筆",
+      "emoji": "✏️",
+      "syllables": [
+        "pen",
+        "cil"
+      ],
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "desk",
+      "en": "desk",
+      "zh": "書桌",
+      "emoji": "🗃️",
+      "syllables": [
+        "desk"
+      ],
+      "tags": [
+        "school",
+        "home"
+      ]
+    },
+    {
+      "id": "scissors",
+      "en": "scissors",
+      "zh": "剪刀",
+      "emoji": "✂️",
+      "syllables": [
+        "scis",
+        "sors"
+      ],
+      "tags": [
+        "school"
+      ]
+    },
+    {
+      "id": "tree",
+      "en": "tree",
+      "zh": "樹",
+      "emoji": "🌳",
+      "syllables": [
+        "tree"
+      ],
+      "tags": [
+        "nature",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "flower",
+      "en": "flower",
+      "zh": "花",
+      "emoji": "🌸",
+      "syllables": [
+        "flow",
+        "er"
+      ],
+      "tags": [
+        "nature",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "grass",
+      "en": "grass",
+      "zh": "草",
+      "emoji": "🌱",
+      "syllables": [
+        "grass"
+      ],
+      "tags": [
+        "nature",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "leaf",
+      "en": "leaf",
+      "zh": "葉子",
+      "emoji": "🍃",
+      "syllables": [
+        "leaf"
+      ],
+      "tags": [
+        "nature",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "rock",
+      "en": "rock",
+      "zh": "石頭",
+      "emoji": "🪨",
+      "syllables": [
+        "rock"
+      ],
+      "tags": [
+        "nature",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "sun",
+      "en": "sun",
+      "zh": "太陽",
+      "emoji": "☀️",
+      "syllables": [
+        "sun"
+      ],
+      "tags": [
+        "weather",
+        "nature"
+      ]
+    },
+    {
+      "id": "moon",
+      "en": "moon",
+      "zh": "月亮",
+      "emoji": "🌙",
+      "syllables": [
+        "moon"
+      ],
+      "tags": [
+        "weather",
+        "nature"
+      ]
+    },
+    {
+      "id": "star",
+      "en": "star",
+      "zh": "星星",
+      "emoji": "⭐",
+      "syllables": [
+        "star"
+      ],
+      "tags": [
+        "weather",
+        "nature"
+      ]
+    },
+    {
+      "id": "cloud",
+      "en": "cloud",
+      "zh": "雲",
+      "emoji": "☁️",
+      "syllables": [
+        "cloud"
+      ],
+      "tags": [
+        "weather",
+        "nature"
+      ]
+    },
+    {
+      "id": "rain",
+      "en": "rain",
+      "zh": "雨",
+      "emoji": "🌧️",
+      "syllables": [
+        "rain"
+      ],
+      "tags": [
+        "weather",
+        "nature"
+      ]
+    },
+    {
+      "id": "snow",
+      "en": "snow",
+      "zh": "雪",
+      "emoji": "❄️",
+      "syllables": [
+        "snow"
+      ],
+      "tags": [
+        "weather",
+        "nature"
+      ]
+    },
+    {
+      "id": "wind",
+      "en": "wind",
+      "zh": "風",
+      "emoji": "🌬️",
+      "syllables": [
+        "wind"
+      ],
+      "tags": [
+        "weather",
+        "nature"
+      ]
+    },
+    {
+      "id": "car",
+      "en": "car",
+      "zh": "汽車",
+      "emoji": "🚗",
+      "syllables": [
+        "car"
+      ],
+      "tags": [
+        "vehicle",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bus",
+      "en": "bus",
+      "zh": "公車",
+      "emoji": "🚌",
+      "syllables": [
+        "bus"
+      ],
+      "tags": [
+        "vehicle",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "bike",
+      "en": "bike",
+      "zh": "腳踏車",
+      "emoji": "🚲",
+      "syllables": [
+        "bike"
+      ],
+      "tags": [
+        "vehicle",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "boat",
+      "en": "boat",
+      "zh": "船",
+      "emoji": "⛵",
+      "syllables": [
+        "boat"
+      ],
+      "tags": [
+        "vehicle"
+      ]
+    },
+    {
+      "id": "plane",
+      "en": "plane",
+      "zh": "飛機",
+      "emoji": "✈️",
+      "syllables": [
+        "plane"
+      ],
+      "tags": [
+        "vehicle"
+      ]
+    },
+    {
+      "id": "train",
+      "en": "train",
+      "zh": "火車",
+      "emoji": "🚆",
+      "syllables": [
+        "train"
+      ],
+      "tags": [
+        "vehicle"
+      ]
+    },
+    {
+      "id": "red",
+      "en": "red",
+      "zh": "紅色",
+      "emoji": "🔴",
+      "syllables": [
+        "red"
+      ],
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "id": "blue",
+      "en": "blue",
+      "zh": "藍色",
+      "emoji": "🔵",
+      "syllables": [
+        "blue"
+      ],
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "id": "green",
+      "en": "green",
+      "zh": "綠色",
+      "emoji": "🟢",
+      "syllables": [
+        "green"
+      ],
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "id": "yellow",
+      "en": "yellow",
+      "zh": "黃色",
+      "emoji": "🟡",
+      "syllables": [
+        "yel",
+        "low"
+      ],
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "id": "black",
+      "en": "black",
+      "zh": "黑色",
+      "emoji": "🖤",
+      "syllables": [
+        "black"
+      ],
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "id": "white",
+      "en": "white",
+      "zh": "白色",
+      "emoji": "🤍",
+      "syllables": [
+        "white"
+      ],
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "id": "pink",
+      "en": "pink",
+      "zh": "粉紅色",
+      "emoji": "💗",
+      "syllables": [
+        "pink"
+      ],
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "id": "purple",
+      "en": "purple",
+      "zh": "紫色",
+      "emoji": "🟣",
+      "syllables": [
+        "pur",
+        "ple"
+      ],
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "id": "brown",
+      "en": "brown",
+      "zh": "棕色",
+      "emoji": "🤎",
+      "syllables": [
+        "brown"
+      ],
+      "tags": [
+        "color"
+      ]
+    },
+    {
+      "id": "circle",
+      "en": "circle",
+      "zh": "圓形",
+      "emoji": "⭕",
+      "syllables": [
+        "cir",
+        "cle"
+      ],
+      "tags": [
+        "shape"
+      ]
+    },
+    {
+      "id": "square",
+      "en": "square",
+      "zh": "正方形",
+      "emoji": "⬜",
+      "syllables": [
+        "square"
+      ],
+      "tags": [
+        "shape"
+      ]
+    },
+    {
+      "id": "triangle",
+      "en": "triangle",
+      "zh": "三角形",
+      "emoji": "🔺",
+      "syllables": [
+        "tri",
+        "an",
+        "gle"
+      ],
+      "tags": [
+        "shape"
+      ]
+    },
+    {
+      "id": "heart",
+      "en": "heart",
+      "zh": "愛心",
+      "emoji": "❤️",
+      "syllables": [
+        "heart"
+      ],
+      "tags": [
+        "shape"
+      ]
+    },
+    {
+      "id": "one",
+      "en": "one",
+      "zh": "一",
+      "emoji": "1️⃣",
+      "syllables": [
+        "one"
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "two",
+      "en": "two",
+      "zh": "二",
+      "emoji": "2️⃣",
+      "syllables": [
+        "two"
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "three",
+      "en": "three",
+      "zh": "三",
+      "emoji": "3️⃣",
+      "syllables": [
+        "three"
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "four",
+      "en": "four",
+      "zh": "四",
+      "emoji": "4️⃣",
+      "syllables": [
+        "four"
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "five",
+      "en": "five",
+      "zh": "五",
+      "emoji": "5️⃣",
+      "syllables": [
+        "five"
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "six",
+      "en": "six",
+      "zh": "六",
+      "emoji": "6️⃣",
+      "syllables": [
+        "six"
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "seven",
+      "en": "seven",
+      "zh": "七",
+      "emoji": "7️⃣",
+      "syllables": [
+        "se",
+        "ven"
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "eight",
+      "en": "eight",
+      "zh": "八",
+      "emoji": "8️⃣",
+      "syllables": [
+        "eight"
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "nine",
+      "en": "nine",
+      "zh": "九",
+      "emoji": "9️⃣",
+      "syllables": [
+        "nine"
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "ten",
+      "en": "ten",
+      "zh": "十",
+      "emoji": "🔟",
+      "syllables": [
+        "ten"
+      ],
+      "tags": [
+        "number"
+      ]
+    },
+    {
+      "id": "mom",
+      "en": "mom",
+      "zh": "媽媽",
+      "emoji": "👩",
+      "syllables": [
+        "mom"
+      ],
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "dad",
+      "en": "dad",
+      "zh": "爸爸",
+      "emoji": "👨",
+      "syllables": [
+        "dad"
+      ],
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "baby",
+      "en": "baby",
+      "zh": "寶寶",
+      "emoji": "👶",
+      "syllables": [
+        "ba",
+        "by"
+      ],
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "sister",
+      "en": "sister",
+      "zh": "姊妹",
+      "emoji": "👧",
+      "syllables": [
+        "sis",
+        "ter"
+      ],
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "brother",
+      "en": "brother",
+      "zh": "兄弟",
+      "emoji": "👦",
+      "syllables": [
+        "broth",
+        "er"
+      ],
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "grandma",
+      "en": "grandma",
+      "zh": "奶奶",
+      "emoji": "👵",
+      "syllables": [
+        "grand",
+        "ma"
+      ],
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "grandpa",
+      "en": "grandpa",
+      "zh": "爺爺",
+      "emoji": "👴",
+      "syllables": [
+        "grand",
+        "pa"
+      ],
+      "tags": [
+        "people"
+      ]
+    },
+    {
+      "id": "eye",
+      "en": "eye",
+      "zh": "眼睛",
+      "emoji": "👁️",
+      "syllables": [
+        "eye"
+      ],
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "ear",
+      "en": "ear",
+      "zh": "耳朵",
+      "emoji": "👂",
+      "syllables": [
+        "ear"
+      ],
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "nose",
+      "en": "nose",
+      "zh": "鼻子",
+      "emoji": "👃",
+      "syllables": [
+        "nose"
+      ],
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "mouth",
+      "en": "mouth",
+      "zh": "嘴巴",
+      "emoji": "👄",
+      "syllables": [
+        "mouth"
+      ],
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "hand",
+      "en": "hand",
+      "zh": "手",
+      "emoji": "🖐️",
+      "syllables": [
+        "hand"
+      ],
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "foot",
+      "en": "foot",
+      "zh": "腳",
+      "emoji": "🦶",
+      "syllables": [
+        "foot"
+      ],
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "head",
+      "en": "head",
+      "zh": "頭",
+      "emoji": "🧑",
+      "syllables": [
+        "head"
+      ],
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "hair",
+      "en": "hair",
+      "zh": "頭髮",
+      "emoji": "💇",
+      "syllables": [
+        "hair"
+      ],
+      "tags": [
+        "body"
+      ]
+    },
+    {
+      "id": "eat",
+      "en": "eat",
+      "zh": "吃",
+      "emoji": "🍴",
+      "syllables": [
+        "eat"
+      ],
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "drink",
+      "en": "drink",
+      "zh": "喝",
+      "emoji": "🥛",
+      "syllables": [
+        "drink"
+      ],
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "sit",
+      "en": "sit",
+      "zh": "坐",
+      "emoji": "🧎",
+      "syllables": [
+        "sit"
+      ],
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "stand",
+      "en": "stand",
+      "zh": "站",
+      "emoji": "🧍",
+      "syllables": [
+        "stand"
+      ],
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "run",
+      "en": "run",
+      "zh": "跑",
+      "emoji": "🏃",
+      "syllables": [
+        "run"
+      ],
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "walk",
+      "en": "walk",
+      "zh": "走",
+      "emoji": "🚶",
+      "syllables": [
+        "walk"
+      ],
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "jump",
+      "en": "jump",
+      "zh": "跳",
+      "emoji": "🤸",
+      "syllables": [
+        "jump"
+      ],
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "sleep",
+      "en": "sleep",
+      "zh": "睡",
+      "emoji": "😴",
+      "syllables": [
+        "sleep"
+      ],
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "wash",
+      "en": "wash",
+      "zh": "洗",
+      "emoji": "🧼",
+      "syllables": [
+        "wash"
+      ],
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "sing",
+      "en": "sing",
+      "zh": "唱",
+      "emoji": "🎤",
+      "syllables": [
+        "sing"
+      ],
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "play",
+      "en": "play",
+      "zh": "玩",
+      "emoji": "🎮",
+      "syllables": [
+        "play"
+      ],
+      "tags": [
+        "action"
+      ]
+    },
+    {
+      "id": "hello",
+      "en": "hello",
+      "zh": "你好",
+      "emoji": "👋",
+      "syllables": [
+        "hel",
+        "lo"
+      ],
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "id": "bye",
+      "en": "bye",
+      "zh": "再見",
+      "emoji": "✋",
+      "syllables": [
+        "bye"
+      ],
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "id": "yes",
+      "en": "yes",
+      "zh": "是",
+      "emoji": "✅",
+      "syllables": [
+        "yes"
+      ],
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "id": "no",
+      "en": "no",
+      "zh": "不",
+      "emoji": "❌",
+      "syllables": [
+        "no"
+      ],
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "id": "please",
+      "en": "please",
+      "zh": "請",
+      "emoji": "🙏",
+      "syllables": [
+        "please"
+      ],
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "id": "sorry",
+      "en": "sorry",
+      "zh": "對不起",
+      "emoji": "😞",
+      "syllables": [
+        "sor",
+        "ry"
+      ],
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "id": "thanks",
+      "en": "thanks",
+      "zh": "謝謝",
+      "emoji": "🙇",
+      "syllables": [
+        "thanks"
+      ],
+      "tags": [
+        "greeting"
+      ]
+    },
+    {
+      "id": "good",
+      "en": "good",
+      "zh": "好",
+      "emoji": "👍",
+      "syllables": [
+        "good"
+      ],
+      "tags": [
+        "greeting",
+        "adjective"
+      ]
+    },
+    {
+      "id": "big",
+      "en": "big",
+      "zh": "大",
+      "emoji": "🐘",
+      "syllables": [
+        "big"
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "id": "small",
+      "en": "small",
+      "zh": "小",
+      "emoji": "🐭",
+      "syllables": [
+        "small"
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "id": "hot",
+      "en": "hot",
+      "zh": "熱",
+      "emoji": "🔥",
+      "syllables": [
+        "hot"
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "id": "cold",
+      "en": "cold",
+      "zh": "冷",
+      "emoji": "🧊",
+      "syllables": [
+        "cold"
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "id": "happy",
+      "en": "happy",
+      "zh": "開心",
+      "emoji": "😊",
+      "syllables": [
+        "hap",
+        "py"
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "id": "sad",
+      "en": "sad",
+      "zh": "難過",
+      "emoji": "😢",
+      "syllables": [
+        "sad"
+      ],
+      "tags": [
+        "adjective"
+      ]
+    },
+    {
+      "id": "carrot",
+      "en": "carrot",
+      "zh": "紅蘿蔔",
+      "emoji": "🥕",
+      "syllables": [
+        "car",
+        "rot"
+      ],
+      "tags": [
+        "food",
+        "kitchen"
+      ]
+    },
+    {
+      "id": "broccoli",
+      "en": "broccoli",
+      "zh": "花椰菜",
+      "emoji": "🥦",
+      "syllables": [
+        "broc",
+        "co",
+        "li"
+      ],
+      "tags": [
+        "food",
+        "kitchen"
+      ]
+    },
+    {
+      "id": "tomato",
+      "en": "tomato",
+      "zh": "番茄",
+      "emoji": "🍅",
+      "syllables": [
+        "to",
+        "ma",
+        "to"
+      ],
+      "tags": [
+        "food",
+        "kitchen"
+      ]
+    },
+    {
+      "id": "corn",
+      "en": "corn",
+      "zh": "玉米",
+      "emoji": "🌽",
+      "syllables": [
+        "corn"
+      ],
+      "tags": [
+        "food",
+        "kitchen"
+      ]
+    },
+    {
+      "id": "pizza",
+      "en": "pizza",
+      "zh": "披薩",
+      "emoji": "🍕",
+      "syllables": [
+        "piz",
+        "za"
+      ],
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "candy",
+      "en": "candy",
+      "zh": "糖果",
+      "emoji": "🍬",
+      "syllables": [
+        "can",
+        "dy"
+      ],
+      "tags": [
+        "food"
+      ]
+    },
+    {
+      "id": "bath",
+      "en": "bath",
+      "zh": "浴缸",
+      "emoji": "🛁",
+      "syllables": [
+        "bath"
+      ],
+      "tags": [
+        "bathroom",
+        "home"
+      ]
+    },
+    {
+      "id": "butterfly",
+      "en": "butterfly",
+      "zh": "蝴蝶",
+      "emoji": "🦋",
+      "syllables": [
+        "but",
+        "ter",
+        "fly"
+      ],
+      "tags": [
+        "animal",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "ladybug",
+      "en": "ladybug",
+      "zh": "瓢蟲",
+      "emoji": "🐞",
+      "syllables": [
+        "la",
+        "dy",
+        "bug"
+      ],
+      "tags": [
+        "animal",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "frog",
+      "en": "frog",
+      "zh": "青蛙",
+      "emoji": "🐸",
+      "syllables": [
+        "frog"
+      ],
+      "tags": [
+        "animal",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "turtle",
+      "en": "turtle",
+      "zh": "烏龜",
+      "emoji": "🐢",
+      "syllables": [
+        "tur",
+        "tle"
+      ],
+      "tags": [
+        "animal",
+        "outdoor"
+      ]
+    },
+    {
+      "id": "horse",
+      "en": "horse",
+      "zh": "馬",
+      "emoji": "🐴",
+      "syllables": [
+        "horse"
+      ],
+      "tags": [
+        "animal"
+      ]
+    },
+    {
+      "id": "sheep",
+      "en": "sheep",
+      "zh": "綿羊",
+      "emoji": "🐑",
+      "syllables": [
+        "sheep"
+      ],
+      "tags": [
+        "animal"
+      ]
+    }
+  ]
+}

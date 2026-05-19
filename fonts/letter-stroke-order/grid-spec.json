@@ -1,0 +1,30 @@
+{
+  "viewBox": {
+    "width": 320,
+    "height": 320
+  },
+  "lines": {
+    "capLine": 60,
+    "midLine": 140,
+    "baseLine": 260,
+    "descenderLine": 300
+  },
+  "zones": {
+    "cap": {
+      "top": 60,
+      "bottom": 260
+    },
+    "ascender": {
+      "top": 60,
+      "bottom": 260
+    },
+    "xHeight": {
+      "top": 140,
+      "bottom": 260
+    },
+    "descender": {
+      "top": 140,
+      "bottom": 300
+    }
+  }
+}

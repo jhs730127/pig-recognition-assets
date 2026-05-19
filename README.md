@@ -59,9 +59,9 @@ correctAudio.play();
 - `classes.json`（letter 才有）— label mapping + case_pairs + confusable_pairs
 - `confusion_pairs.json`（letter 才有）— 同形混淆對 stats
 
-### Audio（zh-TW edge-tts pre-generated MP3）
+### Audio
 
-`audio/tts-zh-tw/` — 188 個 MP3，voice = Microsoft Edge TTS `zh-TW-YunJheNeural`（男聲）
+**`audio/tts-zh-tw/`** — 188 個 zh-TW MP3，voice = Microsoft Edge TTS `zh-TW-YunJheNeural`（男聲）
 
 | 分類 | 數量 | Naming pattern |
 |---|---|---|
@@ -77,6 +77,37 @@ correctAudio.play();
 
 `manifest.json` 提供 key → 文本對應表。
 
+**`audio/tts-en/`** — 558 個 en-US MP3（3 voice × 186 utterance），由 [pig-english](https://github.com/jhs730127/pig-english) 用 Microsoft Edge TTS 生成
+
+| Slug | Voice | 風格 |
+|---|---|---|
+| `aria/` | `en-US-AriaNeural` rate +0% pitch +5Hz | 年輕活潑（姐姐/老師） |
+| `jenny/` | `en-US-JennyNeural` rate -8% pitch +0Hz | 成熟溫暖（媽媽/阿姨） |
+| `guy/` | `en-US-GuyNeural` rate -5% pitch -2Hz | 沉穩男聲（爸爸/哥哥） |
+
+每 voice 子目錄含 `letters/A-Z`、`numbers/one..six`、`praise/great_job 等 8 個`、`words/cat 等 ~146 個`。詳見 `audio/tts-en/README.md`。
+
+### Fonts / 字型資料
+
+**`fonts/letter-stroke-order/`** — 52 個英文字母（A-Z + a-z）SVG path stroke order，含四線格規格。給字母筆順教學 app 用。
+
+| 檔 | 內容 |
+|---|---|
+| `strokes.json` | 52 字母 stroke paths + `start`/`length`（length 可直接做 stroke-dasharray 動畫） |
+| `grid-spec.json` | viewBox 320×320，四線格 cap-line=60 / midline=140 / baseline=260 / descender=300 |
+
+詳見 `fonts/letter-stroke-order/README.md`。
+
+### Data / 詞庫資料
+
+**`data/vocab-en-preschool/`** — 152 個學齡前英文單字（~4-6 歲）+ emoji + 中文 + 音節 + tag。生活化詞庫，不含罕見抽象字。
+
+| 檔 | 內容 |
+|---|---|
+| `words.json` | 152 字完整 metadata（id/en/zh/emoji/syllables/tags） |
+
+詳見 `data/vocab-en-preschool/README.md`。
+
 ### SDK
 
 | 檔 | 用途 |
@@ -89,7 +120,8 @@ correctAudio.play();
 |---|---|
 | `scripts/train-digit/` | Digit model Colab 訓練 pipeline（MNIST + EMNIST + USPS, 14 epoch on T4） |
 | `scripts/train-letter/` | Letter model Colab 訓練 pipeline（EMNIST ByClass, 35 epoch on T4） |
-| `scripts/gen-tts/` | edge-tts 預生成 MP3 Colab notebook（phase 1a sample → phase 1b 量產） |
+| `scripts/gen-tts/` | zh-TW edge-tts 預生成 MP3 Colab notebook（phase 1a sample → phase 1b 量產） |
+| `scripts/gen-tts-en/` | en-US edge-tts 本機 CPU pipeline（3 voice × 186 utterance），含 voice sampler |
 
 每個 folder 內有 `README.md` 跑法說明。
 
@@ -124,6 +156,7 @@ curl -sI https://cdn.jsdelivr.net/gh/jhs730127/pig-recognition-assets@v1.1.0/mod
 | Tag | 日期 | 內容 |
 |---|---|---|
 | v1.0.0 | 2026-05-19 | Initial release — digit v1, letter v3, TTS zh-TW YunJhe 188 個 |
+| v1.1.0 | 2026-05-19 | 加 en-US TTS 558 mp3（aria/jenny/guy 3 voice）、字母筆順 52 字、學齡前詞庫 152 字、en TTS pipeline script — 由 pig-english 貢獻 |
 
 ## 已知限制
 

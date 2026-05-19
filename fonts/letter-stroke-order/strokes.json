@@ -1,0 +1,1198 @@
+{
+  "version": "1.0",
+  "source": "pig-english",
+  "viewBox": {
+    "width": 320,
+    "height": 320
+  },
+  "letters": {
+    "A": {
+      "strokes": [
+        {
+          "path": "M 160 60 L 80 260",
+          "start": {
+            "x": 160,
+            "y": 60
+          },
+          "length": 220
+        },
+        {
+          "path": "M 160 60 L 240 260",
+          "start": {
+            "x": 160,
+            "y": 60
+          },
+          "length": 220
+        },
+        {
+          "path": "M 110 180 L 210 180",
+          "start": {
+            "x": 110,
+            "y": 180
+          },
+          "length": 100
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "B": {
+      "strokes": [
+        {
+          "path": "M 80 60 L 80 260",
+          "start": {
+            "x": 80,
+            "y": 60
+          },
+          "length": 200
+        },
+        {
+          "path": "M 80 60 Q 220 60 220 110 Q 220 160 80 160",
+          "start": {
+            "x": 80,
+            "y": 60
+          },
+          "length": 280
+        },
+        {
+          "path": "M 80 160 Q 230 160 230 210 Q 230 260 80 260",
+          "start": {
+            "x": 80,
+            "y": 160
+          },
+          "length": 290
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "C": {
+      "strokes": [
+        {
+          "path": "M 240 90 Q 80 60 80 160 Q 80 260 240 230",
+          "start": {
+            "x": 240,
+            "y": 90
+          },
+          "length": 460
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "D": {
+      "strokes": [
+        {
+          "path": "M 80 60 L 80 260",
+          "start": {
+            "x": 80,
+            "y": 60
+          },
+          "length": 200
+        },
+        {
+          "path": "M 80 60 Q 240 60 240 160 Q 240 260 80 260",
+          "start": {
+            "x": 80,
+            "y": 60
+          },
+          "length": 410
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "E": {
+      "strokes": [
+        {
+          "path": "M 240 60 L 80 60",
+          "start": {
+            "x": 240,
+            "y": 60
+          },
+          "length": 160
+        },
+        {
+          "path": "M 80 60 L 80 260",
+          "start": {
+            "x": 80,
+            "y": 60
+          },
+          "length": 200
+        },
+        {
+          "path": "M 80 160 L 210 160",
+          "start": {
+            "x": 80,
+            "y": 160
+          },
+          "length": 130
+        },
+        {
+          "path": "M 80 260 L 240 260",
+          "start": {
+            "x": 80,
+            "y": 260
+          },
+          "length": 160
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "F": {
+      "strokes": [
+        {
+          "path": "M 240 60 L 80 60",
+          "start": {
+            "x": 240,
+            "y": 60
+          },
+          "length": 160
+        },
+        {
+          "path": "M 80 60 L 80 260",
+          "start": {
+            "x": 80,
+            "y": 60
+          },
+          "length": 200
+        },
+        {
+          "path": "M 80 160 L 200 160",
+          "start": {
+            "x": 80,
+            "y": 160
+          },
+          "length": 120
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "G": {
+      "strokes": [
+        {
+          "path": "M 240 100 Q 80 60 80 160 Q 80 260 240 230 L 240 170",
+          "start": {
+            "x": 240,
+            "y": 100
+          },
+          "length": 520
+        },
+        {
+          "path": "M 160 170 L 240 170",
+          "start": {
+            "x": 160,
+            "y": 170
+          },
+          "length": 80
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "H": {
+      "strokes": [
+        {
+          "path": "M 80 60 L 80 260",
+          "start": {
+            "x": 80,
+            "y": 60
+          },
+          "length": 200
+        },
+        {
+          "path": "M 240 60 L 240 260",
+          "start": {
+            "x": 240,
+            "y": 60
+          },
+          "length": 200
+        },
+        {
+          "path": "M 80 160 L 240 160",
+          "start": {
+            "x": 80,
+            "y": 160
+          },
+          "length": 160
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "I": {
+      "strokes": [
+        {
+          "path": "M 110 60 L 210 60",
+          "start": {
+            "x": 110,
+            "y": 60
+          },
+          "length": 100
+        },
+        {
+          "path": "M 160 60 L 160 260",
+          "start": {
+            "x": 160,
+            "y": 60
+          },
+          "length": 200
+        },
+        {
+          "path": "M 110 260 L 210 260",
+          "start": {
+            "x": 110,
+            "y": 260
+          },
+          "length": 100
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "J": {
+      "strokes": [
+        {
+          "path": "M 130 60 L 230 60",
+          "start": {
+            "x": 130,
+            "y": 60
+          },
+          "length": 100
+        },
+        {
+          "path": "M 200 60 L 200 220 Q 200 270 140 260 Q 100 250 100 210",
+          "start": {
+            "x": 200,
+            "y": 60
+          },
+          "length": 320
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "K": {
+      "strokes": [
+        {
+          "path": "M 80 60 L 80 260",
+          "start": {
+            "x": 80,
+            "y": 60
+          },
+          "length": 200
+        },
+        {
+          "path": "M 240 60 L 80 160",
+          "start": {
+            "x": 240,
+            "y": 60
+          },
+          "length": 195
+        },
+        {
+          "path": "M 80 160 L 240 260",
+          "start": {
+            "x": 80,
+            "y": 160
+          },
+          "length": 195
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "L": {
+      "strokes": [
+        {
+          "path": "M 80 60 L 80 260",
+          "start": {
+            "x": 80,
+            "y": 60
+          },
+          "length": 200
+        },
+        {
+          "path": "M 80 260 L 240 260",
+          "start": {
+            "x": 80,
+            "y": 260
+          },
+          "length": 160
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "M": {
+      "strokes": [
+        {
+          "path": "M 70 260 L 70 60",
+          "start": {
+            "x": 70,
+            "y": 260
+          },
+          "length": 200
+        },
+        {
+          "path": "M 70 60 L 160 200",
+          "start": {
+            "x": 70,
+            "y": 60
+          },
+          "length": 170
+        },
+        {
+          "path": "M 160 200 L 250 60",
+          "start": {
+            "x": 160,
+            "y": 200
+          },
+          "length": 170
+        },
+        {
+          "path": "M 250 60 L 250 260",
+          "start": {
+            "x": 250,
+            "y": 60
+          },
+          "length": 200
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "N": {
+      "strokes": [
+        {
+          "path": "M 80 260 L 80 60",
+          "start": {
+            "x": 80,
+            "y": 260
+          },
+          "length": 200
+        },
+        {
+          "path": "M 80 60 L 240 260",
+          "start": {
+            "x": 80,
+            "y": 60
+          },
+          "length": 255
+        },
+        {
+          "path": "M 240 260 L 240 60",
+          "start": {
+            "x": 240,
+            "y": 260
+          },
+          "length": 200
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "O": {
+      "strokes": [
+        {
+          "path": "M 160 60 Q 60 60 60 160 Q 60 260 160 260 Q 260 260 260 160 Q 260 60 160 60",
+          "start": {
+            "x": 160,
+            "y": 60
+          },
+          "length": 650
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "P": {
+      "strokes": [
+        {
+          "path": "M 80 260 L 80 60",
+          "start": {
+            "x": 80,
+            "y": 260
+          },
+          "length": 200
+        },
+        {
+          "path": "M 80 60 Q 230 60 230 110 Q 230 160 80 160",
+          "start": {
+            "x": 80,
+            "y": 60
+          },
+          "length": 300
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "Q": {
+      "strokes": [
+        {
+          "path": "M 160 60 Q 60 60 60 160 Q 60 260 160 260 Q 260 260 260 160 Q 260 60 160 60",
+          "start": {
+            "x": 160,
+            "y": 60
+          },
+          "length": 650
+        },
+        {
+          "path": "M 200 220 L 260 280",
+          "start": {
+            "x": 200,
+            "y": 220
+          },
+          "length": 80
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "R": {
+      "strokes": [
+        {
+          "path": "M 80 260 L 80 60",
+          "start": {
+            "x": 80,
+            "y": 260
+          },
+          "length": 200
+        },
+        {
+          "path": "M 80 60 Q 230 60 230 110 Q 230 160 80 160",
+          "start": {
+            "x": 80,
+            "y": 60
+          },
+          "length": 300
+        },
+        {
+          "path": "M 130 160 L 240 260",
+          "start": {
+            "x": 130,
+            "y": 160
+          },
+          "length": 150
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "S": {
+      "strokes": [
+        {
+          "path": "M 240 90 Q 240 60 180 60 Q 80 60 80 130 Q 80 180 200 180 Q 240 200 240 230 Q 240 260 180 260 Q 80 260 80 230",
+          "start": {
+            "x": 240,
+            "y": 90
+          },
+          "length": 600
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "T": {
+      "strokes": [
+        {
+          "path": "M 60 60 L 260 60",
+          "start": {
+            "x": 60,
+            "y": 60
+          },
+          "length": 200
+        },
+        {
+          "path": "M 160 60 L 160 260",
+          "start": {
+            "x": 160,
+            "y": 60
+          },
+          "length": 200
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "U": {
+      "strokes": [
+        {
+          "path": "M 80 60 L 80 200 Q 80 260 160 260 Q 240 260 240 200 L 240 60",
+          "start": {
+            "x": 80,
+            "y": 60
+          },
+          "length": 460
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "V": {
+      "strokes": [
+        {
+          "path": "M 80 60 L 160 260",
+          "start": {
+            "x": 80,
+            "y": 60
+          },
+          "length": 220
+        },
+        {
+          "path": "M 160 260 L 240 60",
+          "start": {
+            "x": 160,
+            "y": 260
+          },
+          "length": 220
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "W": {
+      "strokes": [
+        {
+          "path": "M 60 60 L 110 260",
+          "start": {
+            "x": 60,
+            "y": 60
+          },
+          "length": 210
+        },
+        {
+          "path": "M 110 260 L 160 130",
+          "start": {
+            "x": 110,
+            "y": 260
+          },
+          "length": 140
+        },
+        {
+          "path": "M 160 130 L 210 260",
+          "start": {
+            "x": 160,
+            "y": 130
+          },
+          "length": 140
+        },
+        {
+          "path": "M 210 260 L 260 60",
+          "start": {
+            "x": 210,
+            "y": 260
+          },
+          "length": 210
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "X": {
+      "strokes": [
+        {
+          "path": "M 80 60 L 240 260",
+          "start": {
+            "x": 80,
+            "y": 60
+          },
+          "length": 255
+        },
+        {
+          "path": "M 240 60 L 80 260",
+          "start": {
+            "x": 240,
+            "y": 60
+          },
+          "length": 255
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "Y": {
+      "strokes": [
+        {
+          "path": "M 80 60 L 160 180",
+          "start": {
+            "x": 80,
+            "y": 60
+          },
+          "length": 150
+        },
+        {
+          "path": "M 240 60 L 160 180",
+          "start": {
+            "x": 240,
+            "y": 60
+          },
+          "length": 150
+        },
+        {
+          "path": "M 160 180 L 160 260",
+          "start": {
+            "x": 160,
+            "y": 180
+          },
+          "length": 80
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "Z": {
+      "strokes": [
+        {
+          "path": "M 80 60 L 240 60",
+          "start": {
+            "x": 80,
+            "y": 60
+          },
+          "length": 160
+        },
+        {
+          "path": "M 240 60 L 80 260",
+          "start": {
+            "x": 240,
+            "y": 60
+          },
+          "length": 255
+        },
+        {
+          "path": "M 80 260 L 240 260",
+          "start": {
+            "x": 80,
+            "y": 260
+          },
+          "length": 160
+        }
+      ],
+      "letterClass": "cap"
+    },
+    "a": {
+      "strokes": [
+        {
+          "path": "M 220 160 Q 220 140 190 140 Q 130 140 130 200 Q 130 260 190 260 Q 220 260 220 240",
+          "start": {
+            "x": 220,
+            "y": 160
+          },
+          "length": 340
+        },
+        {
+          "path": "M 220 160 L 220 260",
+          "start": {
+            "x": 220,
+            "y": 160
+          },
+          "length": 100
+        }
+      ],
+      "letterClass": "x-height"
+    },
+    "b": {
+      "strokes": [
+        {
+          "path": "M 90 60 L 90 260",
+          "start": {
+            "x": 90,
+            "y": 60
+          },
+          "length": 200
+        },
+        {
+          "path": "M 90 180 Q 90 160 130 160 Q 230 160 230 210 Q 230 260 130 260 Q 90 260 90 240",
+          "start": {
+            "x": 90,
+            "y": 180
+          },
+          "length": 340
+        }
+      ],
+      "letterClass": "ascender"
+    },
+    "c": {
+      "strokes": [
+        {
+          "path": "M 230 170 Q 230 140 180 140 Q 110 140 110 200 Q 110 260 180 260 Q 230 260 230 230",
+          "start": {
+            "x": 230,
+            "y": 170
+          },
+          "length": 380
+        }
+      ],
+      "letterClass": "x-height"
+    },
+    "d": {
+      "strokes": [
+        {
+          "path": "M 230 160 Q 230 140 200 140 Q 140 140 140 200 Q 140 260 200 260 Q 230 260 230 240",
+          "start": {
+            "x": 230,
+            "y": 160
+          },
+          "length": 340
+        },
+        {
+          "path": "M 230 60 L 230 260",
+          "start": {
+            "x": 230,
+            "y": 60
+          },
+          "length": 200
+        }
+      ],
+      "letterClass": "ascender"
+    },
+    "e": {
+      "strokes": [
+        {
+          "path": "M 110 200 L 220 200 Q 230 180 220 160 Q 200 140 160 140 Q 110 140 110 200 Q 110 260 180 260 Q 220 260 230 230",
+          "start": {
+            "x": 110,
+            "y": 200
+          },
+          "length": 480
+        }
+      ],
+      "letterClass": "x-height"
+    },
+    "f": {
+      "strokes": [
+        {
+          "path": "M 230 90 Q 200 60 170 60 Q 130 60 130 100 L 130 260",
+          "start": {
+            "x": 230,
+            "y": 90
+          },
+          "length": 280
+        },
+        {
+          "path": "M 90 160 L 190 160",
+          "start": {
+            "x": 90,
+            "y": 160
+          },
+          "length": 100
+        }
+      ],
+      "letterClass": "ascender"
+    },
+    "g": {
+      "strokes": [
+        {
+          "path": "M 230 160 Q 230 140 200 140 Q 140 140 140 200 Q 140 260 200 260 Q 230 260 230 240",
+          "start": {
+            "x": 230,
+            "y": 160
+          },
+          "length": 340
+        },
+        {
+          "path": "M 230 160 L 230 280 Q 230 305 180 300 Q 130 295 130 270",
+          "start": {
+            "x": 230,
+            "y": 160
+          },
+          "length": 260
+        }
+      ],
+      "letterClass": "descender"
+    },
+    "h": {
+      "strokes": [
+        {
+          "path": "M 90 60 L 90 260",
+          "start": {
+            "x": 90,
+            "y": 60
+          },
+          "length": 200
+        },
+        {
+          "path": "M 90 180 Q 100 140 160 140 Q 220 140 220 200 L 220 260",
+          "start": {
+            "x": 90,
+            "y": 180
+          },
+          "length": 240
+        }
+      ],
+      "letterClass": "ascender"
+    },
+    "i": {
+      "strokes": [
+        {
+          "path": "M 160 140 L 160 260",
+          "start": {
+            "x": 160,
+            "y": 140
+          },
+          "length": 120
+        },
+        {
+          "path": "M 160 95 L 160 100",
+          "start": {
+            "x": 160,
+            "y": 95
+          },
+          "length": 8
+        }
+      ],
+      "letterClass": "x-height"
+    },
+    "j": {
+      "strokes": [
+        {
+          "path": "M 180 140 L 180 280 Q 180 305 140 300 Q 110 295 110 275",
+          "start": {
+            "x": 180,
+            "y": 140
+          },
+          "length": 240
+        },
+        {
+          "path": "M 180 95 L 180 100",
+          "start": {
+            "x": 180,
+            "y": 95
+          },
+          "length": 8
+        }
+      ],
+      "letterClass": "descender"
+    },
+    "k": {
+      "strokes": [
+        {
+          "path": "M 90 60 L 90 260",
+          "start": {
+            "x": 90,
+            "y": 60
+          },
+          "length": 200
+        },
+        {
+          "path": "M 230 140 L 90 220",
+          "start": {
+            "x": 230,
+            "y": 140
+          },
+          "length": 165
+        },
+        {
+          "path": "M 130 195 L 230 260",
+          "start": {
+            "x": 130,
+            "y": 195
+          },
+          "length": 120
+        }
+      ],
+      "letterClass": "ascender"
+    },
+    "l": {
+      "strokes": [
+        {
+          "path": "M 160 60 L 160 260",
+          "start": {
+            "x": 160,
+            "y": 60
+          },
+          "length": 200
+        }
+      ],
+      "letterClass": "ascender"
+    },
+    "m": {
+      "strokes": [
+        {
+          "path": "M 70 140 L 70 260",
+          "start": {
+            "x": 70,
+            "y": 140
+          },
+          "length": 120
+        },
+        {
+          "path": "M 70 170 Q 90 140 130 140 Q 160 140 160 170 L 160 260",
+          "start": {
+            "x": 70,
+            "y": 170
+          },
+          "length": 250
+        },
+        {
+          "path": "M 160 170 Q 180 140 220 140 Q 250 140 250 170 L 250 260",
+          "start": {
+            "x": 160,
+            "y": 170
+          },
+          "length": 250
+        }
+      ],
+      "letterClass": "x-height"
+    },
+    "n": {
+      "strokes": [
+        {
+          "path": "M 90 140 L 90 260",
+          "start": {
+            "x": 90,
+            "y": 140
+          },
+          "length": 120
+        },
+        {
+          "path": "M 90 170 Q 110 140 160 140 Q 220 140 220 200 L 220 260",
+          "start": {
+            "x": 90,
+            "y": 170
+          },
+          "length": 260
+        }
+      ],
+      "letterClass": "x-height"
+    },
+    "o": {
+      "strokes": [
+        {
+          "path": "M 160 140 Q 110 140 110 200 Q 110 260 160 260 Q 230 260 230 200 Q 230 140 160 140",
+          "start": {
+            "x": 160,
+            "y": 140
+          },
+          "length": 380
+        }
+      ],
+      "letterClass": "x-height"
+    },
+    "p": {
+      "strokes": [
+        {
+          "path": "M 90 140 L 90 300",
+          "start": {
+            "x": 90,
+            "y": 140
+          },
+          "length": 160
+        },
+        {
+          "path": "M 90 160 Q 90 140 130 140 Q 230 140 230 200 Q 230 260 130 260 Q 90 260 90 240",
+          "start": {
+            "x": 90,
+            "y": 160
+          },
+          "length": 340
+        }
+      ],
+      "letterClass": "descender"
+    },
+    "q": {
+      "strokes": [
+        {
+          "path": "M 220 160 Q 220 140 190 140 Q 130 140 130 200 Q 130 260 190 260 Q 220 260 220 240",
+          "start": {
+            "x": 220,
+            "y": 160
+          },
+          "length": 340
+        },
+        {
+          "path": "M 220 160 L 220 280 Q 220 305 250 295",
+          "start": {
+            "x": 220,
+            "y": 160
+          },
+          "length": 175
+        }
+      ],
+      "letterClass": "descender"
+    },
+    "r": {
+      "strokes": [
+        {
+          "path": "M 90 140 L 90 260",
+          "start": {
+            "x": 90,
+            "y": 140
+          },
+          "length": 120
+        },
+        {
+          "path": "M 90 170 Q 110 140 170 140 Q 200 140 220 160",
+          "start": {
+            "x": 90,
+            "y": 170
+          },
+          "length": 180
+        }
+      ],
+      "letterClass": "x-height"
+    },
+    "s": {
+      "strokes": [
+        {
+          "path": "M 220 160 Q 220 140 180 140 Q 110 140 110 175 Q 110 200 190 200 Q 230 200 230 230 Q 230 260 180 260 Q 110 260 110 240",
+          "start": {
+            "x": 220,
+            "y": 160
+          },
+          "length": 520
+        }
+      ],
+      "letterClass": "x-height"
+    },
+    "t": {
+      "strokes": [
+        {
+          "path": "M 150 80 L 150 240 Q 150 265 190 260",
+          "start": {
+            "x": 150,
+            "y": 80
+          },
+          "length": 220
+        },
+        {
+          "path": "M 110 140 L 200 140",
+          "start": {
+            "x": 110,
+            "y": 140
+          },
+          "length": 90
+        }
+      ],
+      "letterClass": "ascender"
+    },
+    "u": {
+      "strokes": [
+        {
+          "path": "M 90 140 L 90 220 Q 90 260 150 260 Q 200 260 220 230",
+          "start": {
+            "x": 90,
+            "y": 140
+          },
+          "length": 240
+        },
+        {
+          "path": "M 220 140 L 220 260",
+          "start": {
+            "x": 220,
+            "y": 140
+          },
+          "length": 120
+        }
+      ],
+      "letterClass": "x-height"
+    },
+    "v": {
+      "strokes": [
+        {
+          "path": "M 90 140 L 160 260",
+          "start": {
+            "x": 90,
+            "y": 140
+          },
+          "length": 140
+        },
+        {
+          "path": "M 160 260 L 230 140",
+          "start": {
+            "x": 160,
+            "y": 260
+          },
+          "length": 140
+        }
+      ],
+      "letterClass": "x-height"
+    },
+    "w": {
+      "strokes": [
+        {
+          "path": "M 70 140 L 110 260",
+          "start": {
+            "x": 70,
+            "y": 140
+          },
+          "length": 130
+        },
+        {
+          "path": "M 110 260 L 160 180",
+          "start": {
+            "x": 110,
+            "y": 260
+          },
+          "length": 95
+        },
+        {
+          "path": "M 160 180 L 210 260",
+          "start": {
+            "x": 160,
+            "y": 180
+          },
+          "length": 95
+        },
+        {
+          "path": "M 210 260 L 250 140",
+          "start": {
+            "x": 210,
+            "y": 260
+          },
+          "length": 130
+        }
+      ],
+      "letterClass": "x-height"
+    },
+    "x": {
+      "strokes": [
+        {
+          "path": "M 100 140 L 220 260",
+          "start": {
+            "x": 100,
+            "y": 140
+          },
+          "length": 170
+        },
+        {
+          "path": "M 220 140 L 100 260",
+          "start": {
+            "x": 220,
+            "y": 140
+          },
+          "length": 170
+        }
+      ],
+      "letterClass": "x-height"
+    },
+    "y": {
+      "strokes": [
+        {
+          "path": "M 90 140 L 160 220",
+          "start": {
+            "x": 90,
+            "y": 140
+          },
+          "length": 110
+        },
+        {
+          "path": "M 230 140 L 160 220 L 130 290 Q 120 305 100 300",
+          "start": {
+            "x": 230,
+            "y": 140
+          },
+          "length": 260
+        }
+      ],
+      "letterClass": "descender"
+    },
+    "z": {
+      "strokes": [
+        {
+          "path": "M 100 140 L 220 140",
+          "start": {
+            "x": 100,
+            "y": 140
+          },
+          "length": 120
+        },
+        {
+          "path": "M 220 140 L 100 260",
+          "start": {
+            "x": 220,
+            "y": 140
+          },
+          "length": 170
+        },
+        {
+          "path": "M 100 260 L 220 260",
+          "start": {
+            "x": 100,
+            "y": 260
+          },
+          "length": 120
+        }
+      ],
+      "letterClass": "x-height"
+    }
+  }
+}
