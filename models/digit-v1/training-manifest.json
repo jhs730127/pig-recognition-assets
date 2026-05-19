@@ -1,0 +1,17 @@
+{
+  "version": "v1-broad-stage1",
+  "val_acc": 0.9967889189720154,
+  "val_loss": 0.014799850061535835,
+  "training_samples": 307291,
+  "validation_samples": 52007,
+  "datasets": [
+    "mnist",
+    "emnist_digits",
+    "usps"
+  ],
+  "epochs_trained": 14,
+  "confusion_6_to_3_pct": 0.0,
+  "confusion_8_to_3_pct": 0.038910505836575876,
+  "confusion_9_to_3_pct": 0.01928268414963363,
+  "confusion_0_to_3_pct": 0.0
+}

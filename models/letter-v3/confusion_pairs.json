@@ -1,0 +1,146 @@
+{
+  "high_confusion_pairs": [
+    {
+      "pair": [
+        "C",
+        "c"
+      ],
+      "mutual_confusion_pct": 19.53,
+      "top1_acc": 0.7665,
+      "top2_acc": 0.9894,
+      "samples": 2171
+    },
+    {
+      "pair": [
+        "K",
+        "k"
+      ],
+      "mutual_confusion_pct": 28.89,
+      "top1_acc": 0.6922,
+      "top2_acc": 0.9858,
+      "samples": 848
+    },
+    {
+      "pair": [
+        "M",
+        "m"
+      ],
+      "mutual_confusion_pct": 22.22,
+      "top1_acc": 0.7758,
+      "top2_acc": 0.9954,
+      "samples": 1949
+    },
+    {
+      "pair": [
+        "O",
+        "o"
+      ],
+      "mutual_confusion_pct": 9.48,
+      "top1_acc": 0.8899,
+      "top2_acc": 0.989,
+      "samples": 4622
+    },
+    {
+      "pair": [
+        "P",
+        "p"
+      ],
+      "mutual_confusion_pct": 15.3,
+      "top1_acc": 0.8312,
+      "top2_acc": 0.9875,
+      "samples": 1765
+    },
+    {
+      "pair": [
+        "S",
+        "s"
+      ],
+      "mutual_confusion_pct": 10.47,
+      "top1_acc": 0.8902,
+      "top2_acc": 0.9942,
+      "samples": 3945
+    },
+    {
+      "pair": [
+        "U",
+        "u"
+      ],
+      "mutual_confusion_pct": 18.16,
+      "top1_acc": 0.8027,
+      "top2_acc": 0.9859,
+      "samples": 2484
+    },
+    {
+      "pair": [
+        "V",
+        "v"
+      ],
+      "mutual_confusion_pct": 28.4,
+      "top1_acc": 0.6131,
+      "top2_acc": 0.9462,
+      "samples": 1264
+    },
+    {
+      "pair": [
+        "W",
+        "w"
+      ],
+      "mutual_confusion_pct": 21.37,
+      "top1_acc": 0.7753,
+      "top2_acc": 0.9906,
+      "samples": 1273
+    },
+    {
+      "pair": [
+        "X",
+        "x"
+      ],
+      "mutual_confusion_pct": 24.94,
+      "top1_acc": 0.7328,
+      "top2_acc": 0.9867,
+      "samples": 902
+    },
+    {
+      "pair": [
+        "Z",
+        "z"
+      ],
+      "mutual_confusion_pct": 24.7,
+      "top1_acc": 0.7366,
+      "top2_acc": 0.9956,
+      "samples": 915
+    }
+  ],
+  "low_confusion_letters": [
+    "A",
+    "B",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "L",
+    "N",
+    "Q",
+    "R",
+    "T",
+    "Y",
+    "a",
+    "b",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "i",
+    "j",
+    "l",
+    "n",
+    "q",
+    "r",
+    "t",
+    "y"
+  ]
+}

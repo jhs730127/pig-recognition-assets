@@ -1,0 +1,16 @@
+tensorflow>=2.18,<3
+tensorflow-datasets>=4.9
+tensorflowjs>=4.22
+datasets>=2.14
+numpy>=1.26
+Pillow>=10.0
+matplotlib>=3.8
+scikit-learn>=1.4
+
+# 注意：不要裝 tensorflow_decision_forests 雖然 tfjs 4.22 strictly require 它。
+# tfdf 會把 TF 降到 2.19 跟 ydf-tf / tensorflow-text 衝突。
+# 跑 train_digit_model.py 前要在 Python 環境內先 stub tfdf：
+#   import sys, types
+#   sys.modules['tensorflow_decision_forests'] = types.ModuleType('tensorflow_decision_forests')
+#   然後 import tensorflowjs
+# train_digit_model.py 的 main() 內已內建 stub。
