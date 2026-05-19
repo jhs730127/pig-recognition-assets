@@ -37,14 +37,12 @@ Canceled future for execute_request message before replies were done
 
 ## Alternative — 本機 Mac
 
-## Alternative — 本機 Mac
-
 ```bash
-cd /Users/jerry.wu/Project/Math
+cd /path/to/pig-recognition-assets
 python3 -m venv .venv-train && source .venv-train/bin/activate
-pip install -r scripts/letter-training/requirements.txt
-python scripts/letter-training/train_letter_model.py --output ./scripts/letter-training/tfjs-model
-python scripts/letter-training/patch_tfjs_model_json.py ./scripts/letter-training/tfjs-model/model.json
+pip install -r scripts/train-letter/requirements.txt
+python scripts/train-letter/train_letter_model.py --output ./scripts/train-letter/tfjs-model
+python scripts/train-letter/patch_tfjs_model_json.py ./scripts/train-letter/tfjs-model/model.json
 ```
 
 M1+ Mac 自動用 Metal GPU，約 1.5-2 小時。CPU 約 4-6 小時。

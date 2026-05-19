@@ -40,11 +40,11 @@ files.download("pig-math-tfjs-model.zip")
 ## Alternative — 本機 Mac
 
 ```bash
-cd /Users/jerry.wu/Project/Math
+cd /path/to/pig-recognition-assets
 python3 -m venv .venv-train
 source .venv-train/bin/activate
-pip install -r scripts/training/requirements.txt
-python scripts/training/train_digit_model.py --output ./scripts/training/tfjs-model
+pip install -r scripts/train-digit/requirements.txt
+python scripts/train-digit/train_digit_model.py --output ./scripts/train-digit/tfjs-model
 ```
 
 M1+ Mac 會自動用 Metal GPU，約 1-2 小時。CPU 約 4-6 小時。
