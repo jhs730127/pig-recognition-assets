@@ -4,6 +4,14 @@
 
 訓練 / 生成所有資產的 script 也都在這，方便日後升版。
 
+## 📖 文件導覽
+
+| 文件 | 給誰 |
+|---|---|
+| **[INTEGRATION.md](./INTEGRATION.md)** | **其他專案** — 完整整合指南（Next.js / Vite / HTML / CSP / 效能優化 / 錯誤處理） |
+| **[CONTRIBUTING.md](./CONTRIBUTING.md)** | **Repo maintainer** — 上架新 model / TTS 的 step-by-step 流程、版本規則、OPSEC checklist |
+| 本檔（README）| 快速概覽 + 內容清單 |
+
 ## Quick Start：jsdelivr CDN
 
 URL pattern：
