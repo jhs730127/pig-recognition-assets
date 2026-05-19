@@ -1,4 +1,4 @@
-# recognition-assets
+# pig-recognition-assets
 
 跨專案共用的文字辨識 model + zh-TW TTS 音檔，透過 **jsdelivr CDN** 直接 serve，免部署。
 
@@ -9,7 +9,7 @@
 URL pattern：
 
 ```
-https://cdn.jsdelivr.net/gh/jhs730127/recognition-assets@<version>/<path>
+https://cdn.jsdelivr.net/gh/jhs730127/pig-recognition-assets@<version>/<path>
 ```
 
 例（鎖 v1.0.0）：
@@ -17,7 +17,7 @@ https://cdn.jsdelivr.net/gh/jhs730127/recognition-assets@<version>/<path>
 ```ts
 import * as tf from "@tensorflow/tfjs";
 
-const BASE = "https://cdn.jsdelivr.net/gh/jhs730127/recognition-assets@v1.0.0";
+const BASE = "https://cdn.jsdelivr.net/gh/jhs730127/pig-recognition-assets@v1.0.0";
 
 // Letter (A-Z + a-z, 52 類)
 const letterModel = await tf.loadLayersModel(`${BASE}/models/letter-v3/model.json`);
@@ -90,7 +90,7 @@ correctAudio.play();
 新訓 model / 新生 TTS 後：
 
 ```bash
-cd ~/Project/recognition-assets
+cd ~/Project/pig-recognition-assets
 
 # 1. 替換 asset 檔
 cp -r 新訓的 model 進 models/letter-v4/
@@ -106,7 +106,7 @@ git push origin v1.1.0
 gh release create v1.1.0 --title "v1.1.0 letter v4" --notes "..."
 
 # 4. 等 jsdelivr propagate (1-5 min)
-curl -sI https://cdn.jsdelivr.net/gh/jhs730127/recognition-assets@v1.1.0/models/letter-v4/model.json
+curl -sI https://cdn.jsdelivr.net/gh/jhs730127/pig-recognition-assets@v1.1.0/models/letter-v4/model.json
 ```
 
 新專案用 `@v1.1.0` 或 `@^1` 自動升級。
