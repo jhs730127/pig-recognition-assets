@@ -6,17 +6,28 @@
 
 ## 30 秒上手
 
+Copy 你需要的 SDK 到專案（從 [`sdk/ts/`](./sdk/ts/)），然後：
+
 ```ts
-import * as tf from "@tensorflow/tfjs";
+import { DigitRecognizer } from "./digit-recognizer";
+import { LetterRecognizer } from "./letter-recognizer";
+import { PrerenderedTtsPlayer } from "./prerendered-tts-player";
 
-const BASE = "https://cdn.jsdelivr.net/gh/jhs730127/pig-recognition-assets@v1.0.0";
+const BASE = "https://cdn.jsdelivr.net/gh/jhs730127/pig-recognition-assets@v1.2.0";
 
-// Letter (A-Z + a-z)
-const model = await tf.loadLayersModel(`${BASE}/models/letter-v3/model.json`);
-const classes = await fetch(`${BASE}/models/letter-v3/classes.json`).then(r => r.json());
+// Digit 0-9（含 MNIST 重心置中 + TTA + 多位數切割）
+const digit = new DigitRecognizer({ modelUrl: `${BASE}/models/digit-v1/model.json` });
+await digit.load();
+const r = await digit.predictFromDataUrl(dataUrl, { useTta: true });  // { digit, confidence }
 
-// TTS audio
-new Audio(`${BASE}/audio/tts-zh-tw/num_zh_42.mp3`).play();
+// Letter A-Z + a-z
+const letter = new LetterRecognizer();
+await letter.load(`${BASE}/models/letter-v3/model.json`, `${BASE}/models/letter-v3/classes.json`);
+
+// TTS — Web Audio 精準排程組合句
+const tts = new PrerenderedTtsPlayer({ baseUrl: `${BASE}/audio/tts-zh-tw` });
+tts.setupAudioUnlock();
+await tts.playSentence(["num_zh_5", "op_sub", "num_zh_1", "q_equals_what"]);
 ```
 
 你的專案 `package.json` 只需要一個依賴：
@@ -24,6 +35,8 @@ new Audio(`${BASE}/audio/tts-zh-tw/num_zh_42.mp3`).play();
 ```bash
 npm install @tensorflow/tfjs
 ```
+
+> 不想用 SDK 也可以直接 `tf.loadLayersModel(URL)` 自己組裝；但 SDK 已包好 MNIST 重心置中、TTA、TTS Web Audio 精準排程等踩過的細節，建議直接用。
 
 ---
 
@@ -358,6 +371,21 @@ manifest 全清單見 `audio/tts-zh-tw/manifest.json`。
 
 ### Sequence player（多個 audio 串播）
 
+**推薦用 [`sdk/ts/prerendered-tts-player.ts`](./sdk/ts/prerendered-tts-player.ts)**（v1.2.0+）— 內建 Web Audio API + trim silence + 精準排程，組合句段間 0 gap，比 `new Audio().play()` 體驗好很多：
+
+```ts
+import { PrerenderedTtsPlayer } from "./prerendered-tts-player";
+
+const tts = new PrerenderedTtsPlayer({ baseUrl: `${BASE}/audio/tts-zh-tw` });
+tts.setupAudioUnlock();   // App mount 時呼叫一次（iOS Safari 解鎖 AudioContext）
+await tts.loadManifest();
+
+// 「三加五等於八」— 段與段精準對接、無 cold start gap
+await tts.playSentence(["num_zh_3", "op_add", "num_zh_5", "op_equals", "num_zh_8"]);
+```
+
+不想用 SDK 的話最陽春版本（**會聽到字字停頓，不建議**）：
+
 ```ts
 async function playSequence(keys: string[]) {
   for (const key of keys) {
@@ -369,10 +397,9 @@ async function playSequence(keys: string[]) {
     });
   }
 }
-
-// 「三加五等於八」
-await playSequence(["num_zh_3", "op_add", "num_zh_5", "op_equals", "num_zh_8"]);
 ```
+
+差別：MP3 每段前後有 200~500ms 靜音 padding + `new Audio()` 有 cold start。SDK 用 Web Audio API decodeAudioData 一次 decode 起來 trim silence、再用 `AudioBufferSourceNode.start(when)` 精準排程，組合句聽起來像一句連續話。
 
 ### 「未來新專案的字母 TTS」
 

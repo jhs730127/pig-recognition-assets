@@ -20,28 +20,37 @@ URL pattern：
 https://cdn.jsdelivr.net/gh/jhs730127/pig-recognition-assets@<version>/<path>
 ```
 
-例（鎖 v1.0.0）：
+例（鎖 v1.2.0）：
 
 ```ts
-import * as tf from "@tensorflow/tfjs";
+import { DigitRecognizer } from "./digit-recognizer";
+import { LetterRecognizer } from "./letter-recognizer";
+import { PrerenderedTtsPlayer } from "./prerendered-tts-player";
 
-const BASE = "https://cdn.jsdelivr.net/gh/jhs730127/pig-recognition-assets@v1.0.0";
+const BASE = "https://cdn.jsdelivr.net/gh/jhs730127/pig-recognition-assets@v1.2.0";
+
+// Digit (0-9) — 含重心置中 / TTA / 多位數切割
+const digit = new DigitRecognizer({
+  modelUrl: `${BASE}/models/digit-v1/model.json`,
+  cacheKey: "indexeddb://my-app-digit-v1",
+});
+await digit.load();
+const { digit: n, confidence } = await digit.predictFromDataUrl(dataUrl, { useTta: true });
 
 // Letter (A-Z + a-z, 52 類)
-const letterModel = await tf.loadLayersModel(`${BASE}/models/letter-v3/model.json`);
-const letterClasses = await fetch(`${BASE}/models/letter-v3/classes.json`).then(r => r.json());
+const letter = new LetterRecognizer();
+await letter.load(`${BASE}/models/letter-v3/model.json`, `${BASE}/models/letter-v3/classes.json`);
+const top = letter.predict(imageData, 3);
 
-// Digit (0-9)
-const digitModel = await tf.loadLayersModel(`${BASE}/models/digit-v1/model.json`);
-
-// TTS MP3
-const correctAudio = new Audio(`${BASE}/audio/tts-zh-tw/feedback_correct_1.mp3`);
-correctAudio.play();
+// TTS — Web Audio API 精準排程組合句（5 減 1 等於多少）
+const tts = new PrerenderedTtsPlayer({ baseUrl: `${BASE}/audio/tts-zh-tw` });
+tts.setupAudioUnlock();
+await tts.playSentence(["num_zh_5", "op_sub", "num_zh_1", "q_equals_what"]);
 ```
 
-`@v1.0.0` 改成 `@main` 拿最新（無版本鎖，會自動跟著 main 更新），或 `@^1` 拿 major 1 的最新 minor。
+`@v1.2.0` 改成 `@main` 拿最新（無版本鎖，會自動跟著 main 更新），或 `@^1` 拿 major 1 的最新 minor。
 
-完整 inference helper 見 `sdk/ts/letter-recognizer.ts`，直接 copy 到新專案即可用。
+完整 inference / TTS / voice helper 見 `sdk/ts/`，直接 copy 到新專案即可用。
 
 ## 內容清單
 
@@ -112,7 +121,10 @@ correctAudio.play();
 
 | 檔 | 用途 |
 |---|---|
-| `sdk/ts/letter-recognizer.ts` | LetterRecognizer class — top-K + case-insensitive 預測 + React hook 範例 |
+| `sdk/ts/digit-recognizer.ts` | DigitRecognizer class — 0-9 預測，內建 MNIST 重心置中 + TTA (±4°/±8°) + 多位數切割 + IndexedDB cache |
+| `sdk/ts/letter-recognizer.ts` | LetterRecognizer class — top-K + case-insensitive 預測 |
+| `sdk/ts/prerendered-tts-player.ts` | PrerenderedTtsPlayer class — Web Audio API + trim silence + iOS unlock + 組合句精準排程（取代 `new Audio().play()` 卡頓） |
+| `sdk/ts/voice-input-parser.ts` | VoiceInputRecognizer class + `parseChineseNumber` util — 麥克風答題（「十二」→12） |
 
 ### 訓練 / 生成 scripts
 
@@ -157,6 +169,7 @@ curl -sI https://cdn.jsdelivr.net/gh/jhs730127/pig-recognition-assets@v1.1.0/mod
 |---|---|---|
 | v1.0.0 | 2026-05-19 | Initial release — digit v1, letter v3, TTS zh-TW YunJhe 188 個 |
 | v1.1.0 | 2026-05-19 | 加 en-US TTS 558 mp3（aria/jenny/guy 3 voice）、字母筆順 52 字、學齡前詞庫 152 字、en TTS pipeline script — 由 pig-english 貢獻 |
+| v1.2.0 | 2026-05-20 | 加 3 個 SDK — `digit-recognizer`（含 MNIST 重心置中 + TTA + 多位數切割）、`prerendered-tts-player`（Web Audio API + trim silence + iOS unlock 精準組合句）、`voice-input-parser`（中文數字 + Web Speech wrapper） — 由 pig-math 貢獻 |
 
 ## 已知限制
 
