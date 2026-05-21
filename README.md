@@ -70,7 +70,9 @@ await tts.playSentence(["num_zh_5", "op_sub", "num_zh_1", "q_equals_what"]);
 
 ### Audio
 
-**`audio/tts-zh-tw/`** — 188 個 zh-TW MP3，voice = Microsoft Edge TTS `zh-TW-YunJheNeural`（男聲）
+**`audio/tts-zh-tw/`** — 188 個 zh-TW MP3，voice = Microsoft Edge TTS `zh-TW-YunJheNeural`（男聲，沉穩雲哲）
+
+**`audio/tts-zh-tw-hsiaochen/`**（v1.3.0+）— 188 個 zh-TW MP3，voice = `zh-TW-HsiaoChenNeural`（女聲，溫柔曉臻）— 同 phrase 集合與 manifest schema，純 voice 替換
 
 | 分類 | 數量 | Naming pattern |
 |---|---|---|
@@ -170,13 +172,14 @@ curl -sI https://cdn.jsdelivr.net/gh/jhs730127/pig-recognition-assets@v1.1.0/mod
 | v1.0.0 | 2026-05-19 | Initial release — digit v1, letter v3, TTS zh-TW YunJhe 188 個 |
 | v1.1.0 | 2026-05-19 | 加 en-US TTS 558 mp3（aria/jenny/guy 3 voice）、字母筆順 52 字、學齡前詞庫 152 字、en TTS pipeline script — 由 pig-english 貢獻 |
 | v1.2.0 | 2026-05-20 | 加 3 個 SDK — `digit-recognizer`（含 MNIST 重心置中 + TTA + 多位數切割）、`prerendered-tts-player`（Web Audio API + trim silence + iOS unlock 精準組合句）、`voice-input-parser`（中文數字 + Web Speech wrapper） — 由 pig-math 貢獻 |
+| v1.3.0 | 2026-05-21 | 加 `audio/tts-zh-tw-hsiaochen/` 188 MP3（zh-TW HsiaoChenNeural 女聲）— 與 v1.0.0 的 YunJhe 男聲同 phrase 集合與 manifest schema，純 voice 替換給選擇 |
 
 ## 已知限制
 
 - **letter model non-confusable top-1 0.91** vs EMNIST byclass SOTA ~0.97 — 屬於 EMNIST dataset 天花板（label noise + 隨機 val split 不是按書寫者）。實機跨人 accuracy 可能 65-80%
 - **letter model 11 個同形混淆對**（C/c, K/k, M/m, O/o, P/p, S/s, U/u, V/v, W/w, X/x, Z/z）top-1 mean 0.77、top-2 mean 0.99。應用層走 top-K + 後處理體感較好
 - **digit model 是 pig-math 專案訓**，跟 letter model 用同 backbone 但不同 dataset，**不可共 weight**
-- **TTS voice 固定 zh-TW-YunJheNeural**，要不同 voice 重跑 `scripts/gen-tts/phase1b_full_generation.ipynb` 換 voice 參數
+- **zh-TW TTS 目前 2 個 voice**：YunJhe（男聲）/ HsiaoChen（女聲）— 要加新 voice 重跑 `scripts/gen-tts/phase1b_full_generation.ipynb` 改 `ZH_VOICE` 參數
 
 ## LICENSE
 
