@@ -173,6 +173,8 @@ curl -sI https://cdn.jsdelivr.net/gh/jhs730127/pig-recognition-assets@v1.1.0/mod
 | v1.1.0 | 2026-05-19 | 加 en-US TTS 558 mp3（aria/jenny/guy 3 voice）、字母筆順 52 字、學齡前詞庫 152 字、en TTS pipeline script — 由 pig-english 貢獻 |
 | v1.2.0 | 2026-05-20 | 加 3 個 SDK — `digit-recognizer`（含 MNIST 重心置中 + TTA + 多位數切割）、`prerendered-tts-player`（Web Audio API + trim silence + iOS unlock 精準組合句）、`voice-input-parser`（中文數字 + Web Speech wrapper） — 由 pig-math 貢獻 |
 | v1.3.0 | 2026-05-21 | 加 `audio/tts-zh-tw-hsiaochen/` 188 MP3（zh-TW HsiaoChenNeural 女聲）— 與 v1.0.0 的 YunJhe 男聲同 phrase 集合與 manifest schema，純 voice 替換給選擇 |
+| v1.4.0 | 2026-05-22 | 加 pig-english 用 zh-TW 3 voice × (152 vocab + 13 世界名) = 495 MP3（HsiaoChen / HsiaoYu / YunJhe），與 pig-math 的 188 phrase 集合無關 |
+| v1.5.0 | 2026-05-23 | pig-math 兩 voice 各加 `answer_is` (答案是) + `the_answer_is` (The answer is) 共 2 phrase — `speakAnswer` 走預生成組合句、不再依賴 Web Speech 即時合成；新 phrase 也 mirror 到本地 fallback `public/audio/tts/` (YunJhe + en) |
 
 ## 已知限制
 

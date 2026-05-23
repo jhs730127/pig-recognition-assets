@@ -192,7 +192,9 @@
     "trace_intro": "沿著虛線描寫看看",
     "trace_great": "寫得很棒！",
     "q_equals_what": "等於多少？",
-    "q_equals_how": "等於幾？"
+    "q_equals_how": "等於幾？",
+    "answer_is": "答案是",
+    "the_answer_is": "The answer is"
   },
-  "count": 188
+  "count": 190
 }
