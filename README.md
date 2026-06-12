@@ -74,6 +74,8 @@ await tts.playSentence(["num_zh_5", "op_sub", "num_zh_1", "q_equals_what"]);
 
 **`audio/tts-zh-tw-hsiaochen/`**（v1.3.0+）— 188 個 zh-TW MP3，voice = `zh-TW-HsiaoChenNeural`（女聲，溫柔曉臻）— 同 phrase 集合與 manifest schema，純 voice 替換
 
+**`audio/tts-zh-tw-voxcpm/`**（v1.6.0+）— 190 個 MP3，中文 169 個 voice = VoxCPM2 clone Common Voice zh-TW CC0 台灣女聲（語者 e541d2db，20 代）、英文 21 個沿用 `en-US-AriaNeural`。同 phrase 集合與 manifest schema。生成流程：pig-math `scripts/voice/voxcpm_tts_colab.ipynb`（長參考 16.6s + timesteps 32 + ASR 把關）
+
 | 分類 | 數量 | Naming pattern |
 |---|---|---|
 | 中文數字 0-100 | 101 | `num_zh_{0..100}.mp3` |
@@ -175,6 +177,7 @@ curl -sI https://cdn.jsdelivr.net/gh/jhs730127/pig-recognition-assets@v1.1.0/mod
 | v1.3.0 | 2026-05-21 | 加 `audio/tts-zh-tw-hsiaochen/` 188 MP3（zh-TW HsiaoChenNeural 女聲）— 與 v1.0.0 的 YunJhe 男聲同 phrase 集合與 manifest schema，純 voice 替換給選擇 |
 | v1.4.0 | 2026-05-22 | 加 pig-english 用 zh-TW 3 voice × (152 vocab + 13 世界名) = 495 MP3（HsiaoChen / HsiaoYu / YunJhe），與 pig-math 的 188 phrase 集合無關 |
 | v1.5.0 | 2026-05-23 | pig-math 兩 voice 各加 `answer_is` (答案是) + `the_answer_is` (The answer is) 共 2 phrase — `speakAnswer` 走預生成組合句、不再依賴 Web Speech 即時合成；新 phrase 也 mirror 到本地 fallback `public/audio/tts/` (YunJhe + en) |
+| v1.6.0 | 2026-06-11 | 加 `audio/tts-zh-tw-voxcpm/` 190 MP3 — 中文 169 個 VoxCPM2 clone CC0 台灣女聲（Common Voice zh-TW 語者，Apache-2.0 + CC0 全合法商用）、英文 21 個沿用 AriaNeural。同 manifest schema，pig-math 第三個 voice pack |
 
 ## 已知限制
 
