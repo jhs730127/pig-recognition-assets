@@ -177,6 +177,7 @@ curl -sI https://cdn.jsdelivr.net/gh/jhs730127/pig-recognition-assets@v1.1.0/mod
 | v1.3.0 | 2026-05-21 | 加 `audio/tts-zh-tw-hsiaochen/` 188 MP3（zh-TW HsiaoChenNeural 女聲）— 與 v1.0.0 的 YunJhe 男聲同 phrase 集合與 manifest schema，純 voice 替換給選擇 |
 | v1.4.0 | 2026-05-22 | 加 pig-english 用 zh-TW 3 voice × (152 vocab + 13 世界名) = 495 MP3（HsiaoChen / HsiaoYu / YunJhe），與 pig-math 的 188 phrase 集合無關 |
 | v1.5.0 | 2026-05-23 | pig-math 兩 voice 各加 `answer_is` (答案是) + `the_answer_is` (The answer is) 共 2 phrase — `speakAnswer` 走預生成組合句、不再依賴 Web Speech 即時合成；新 phrase 也 mirror 到本地 fallback `public/audio/tts/` (YunJhe + en) |
+| v1.6.1 | 2026-06-12 | voxcpm 包中文 169 MP3 峰值 normalize 到 0.6（原 max 1.018 拼句 5ms overlap 相加破音）— 英文 21 個未動 |
 | v1.6.0 | 2026-06-11 | 加 `audio/tts-zh-tw-voxcpm/` 190 MP3 — 中文 169 個 VoxCPM2 clone CC0 台灣女聲（Common Voice zh-TW 語者，Apache-2.0 + CC0 全合法商用）、英文 21 個沿用 AriaNeural。同 manifest schema，pig-math 第三個 voice pack |
 
 ## 已知限制
