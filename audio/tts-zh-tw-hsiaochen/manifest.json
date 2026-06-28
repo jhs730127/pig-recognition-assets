@@ -194,7 +194,12 @@
     "q_equals_what": "等於多少？",
     "q_equals_how": "等於幾？",
     "answer_is": "答案是",
-    "the_answer_is": "The answer is"
+    "the_answer_is": "The answer is",
+    "num_zh_hundred": "百",
+    "num_zh_thousand": "千",
+    "num_zh_point": "點",
+    "num_zh_fraction": "分之",
+    "num_zh_negative": "負"
   },
-  "count": 190
+  "count": 195
 }
