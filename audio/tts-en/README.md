@@ -61,4 +61,6 @@ python3 generate_tts_local.py
 
 ## 授權
 
-MP3 內容透過 Microsoft Edge TTS 公開服務生成（[ToS](https://learn.microsoft.com/en-us/legal/cognitive-services/speech-service/translator/speech-service-improvement-additional-terms)）。重新生成不限。
+**這些 MP3 不在本 repo 的 MIT 授權範圍內。** 它們是用 `edge-tts` 呼叫 Microsoft Edge 朗讀服務生成的。微軟沒有公開條款授權使用或散布這類音檔。要商用或公開散布，請改用條款明確授權產出的服務或模型重新生成。詳見根目錄 LICENSE。
+
+（2026-11-08 更正：舊版引用的條款連結已失效（404），已移除。）

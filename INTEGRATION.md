@@ -405,7 +405,7 @@ async function playSequence(keys: string[]) {
 
 pig-recognition-assets v1.0.0 **只有數字 TTS**（沒英文字母）。如果你新專案要字母（"A"、"a"…）TTS：
 
-選擇 1：自己用 edge-tts 生：
+選擇 1：自己用 edge-tts 生（⚠️ 產出的音檔沒有明確授權，只適合個人使用，詳見 LICENSE）：
 ```bash
 cd /path/to/pig-recognition-assets/scripts/gen-tts
 # 開 phase1b_full_generation.ipynb，加 letter 內容 list 重跑

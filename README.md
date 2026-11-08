@@ -179,6 +179,8 @@ curl -sI https://cdn.jsdelivr.net/gh/jhs730127/pig-recognition-assets@v1.1.0/mod
 | v1.5.0 | 2026-05-23 | pig-math 兩 voice 各加 `answer_is` (答案是) + `the_answer_is` (The answer is) 共 2 phrase — `speakAnswer` 走預生成組合句、不再依賴 Web Speech 即時合成；新 phrase 也 mirror 到本地 fallback `public/audio/tts/` (YunJhe + en) |
 | v1.6.1 | 2026-06-12 | voxcpm 包中文 169 MP3 峰值 normalize 到 0.6（原 max 1.018 拼句 5ms overlap 相加破音）— 英文 21 個未動 |
 | v1.6.0 | 2026-06-11 | 加 `audio/tts-zh-tw-voxcpm/` 190 MP3 — 中文 169 個 VoxCPM2 clone CC0 台灣女聲（Common Voice zh-TW 語者，Apache-2.0 + CC0 全合法商用）、英文 21 個沿用 AriaNeural。同 manifest schema，pig-math 第三個 voice pack |
+| v1.7.0 | 2026-06-28 | `audio/tts-zh-tw/`（YunJhe）與 `audio/tts-zh-tw-hsiaochen/` 各加 5 個數字建構塊：百 / 千 / 點 / 分之 / 負（manifest 190→195），讓 pig-math 能組出 0-9999 整數、小數、分數 |
+| v1.7.1 | 2026-11-08 | 授權說明更正：edge-tts 生成的音檔不在 MIT 範圍內，撤回「自由使用」說法（LICENSE、README、`audio/tts-en/README.md`、INTEGRATION.md）。音檔與 model 都沒變 |
 
 ## 已知限制
 
@@ -189,7 +191,16 @@ curl -sI https://cdn.jsdelivr.net/gh/jhs730127/pig-recognition-assets@v1.1.0/mod
 
 ## LICENSE
 
-MIT — 見 LICENSE 檔。Model 是 EMNIST / MNIST / USPS 公開 dataset trained 的 vanilla CNN，無 IP claim。TTS MP3 由 Microsoft Edge TTS API 生成（自由使用）。
+MIT — 見 LICENSE 檔，涵蓋程式碼、model 與文件。Model 是 EMNIST / MNIST / USPS 公開 dataset trained 的 vanilla CNN，無 IP claim。
+
+**edge-tts 生成的 TTS 音檔不在 MIT 授權範圍內。** 範圍包括：
+
+- `audio/tts-zh-tw/`、`audio/tts-zh-tw-hsiaochen/`、`audio/tts-en/` 全部
+- `audio/tts-zh-tw-voxcpm/` 裡的 21 個英文音檔
+
+這些是用 `edge-tts` 呼叫 Microsoft Edge 朗讀服務生成的。微軟沒有公開條款授權使用或散布這類音檔。它的使用條款寫明：服務僅供個人、非商業使用，除非另有說明。要商用或公開散布，請改用條款明確授權產出的服務或模型重新生成。
+
+（2026-11-08 查證。舊版寫的「自由使用」沒有出處，已撤回。）
 
 ## Source
 
