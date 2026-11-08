@@ -1,0 +1,241 @@
+{
+ "af_bella": {
+  "banjo": {
+   "suffix": "!"
+  },
+  "beach": {
+   "style": 40
+  },
+  "cake": {
+   "style": 40
+  },
+  "chair": {
+   "style": 40
+  },
+  "coral": {
+   "style": 20
+  },
+  "desk": {
+   "speed": 0.85
+  },
+  "grandpa": {
+   "suffix": "!"
+  },
+  "home": {
+   "style": 20
+  },
+  "jellyfish": {
+   "style": 40
+  },
+  "judge": {
+   "style": 40,
+   "suffix": "!"
+  },
+  "key": {
+   "suffix": "!"
+  },
+  "march": {
+   "style": 40
+  },
+  "mouth": {
+   "style": 40
+  },
+  "orange": {
+   "style": 40
+  },
+  "ride": {
+   "style": 40
+  },
+  "sea-otter": {
+   "speed": 0.85
+  },
+  "sheep": {
+   "suffix": "!"
+  },
+  "taco": {
+   "suffix": "!"
+  },
+  "tomato": {
+   "style": 40
+  }
+ },
+ "af_heart": {
+  "banjo": {
+   "style": 40
+  },
+  "beach": {
+   "style": 40
+  },
+  "book": {
+   "style": 20
+  },
+  "bouquet": {
+   "style": 40
+  },
+  "boy": {
+   "style": 40
+  },
+  "cake": {
+   "style": 40
+  },
+  "chef": {
+   "style": 40
+  },
+  "cook": {
+   "style": 40
+  },
+  "cow": {
+   "style": 40
+  },
+  "cup": {
+   "style": 20
+  },
+  "fish": {
+   "style": 60
+  },
+  "grandpa": {
+   "speed": 0.85
+  },
+  "hair": {
+   "speed": 0.85
+  },
+  "have": {
+   "speed": 0.85
+  },
+  "help": {
+   "suffix": "!"
+  },
+  "jellyfish": {
+   "style": 40
+  },
+  "judge": {
+   "style": 40
+  },
+  "jump": {
+   "speed": 0.85,
+   "style": 40
+  },
+  "key": {
+   "style": 40,
+   "suffix": "!"
+  },
+  "march": {
+   "style": 40
+  },
+  "me": {
+   "style": 40
+  },
+  "mouth": {
+   "style": 40,
+   "suffix": "!"
+  },
+  "my": {
+   "speed": 0.85
+  },
+  "no": {
+   "style": 40
+  },
+  "park": {
+   "style": 20
+  },
+  "ride": {
+   "style": 40
+  },
+  "sit": {
+   "style": 40,
+   "suffix": "!"
+  },
+  "six": {
+   "style": 40
+  },
+  "some": {
+   "suffix": "!"
+  },
+  "soy-sauce": {
+   "style": 40
+  },
+  "syringe": {
+   "style": 40,
+   "suffix": "!"
+  },
+  "taco": {
+   "style": 40
+  },
+  "to": {
+   "suffix": "!"
+  },
+  "tomato": {
+   "style": 40
+  },
+  "you": {
+   "speed": 0.85
+  }
+ },
+ "am_michael": {
+  "banjo": {
+   "style": 40
+  },
+  "bouquet": {
+   "style": 20
+  },
+  "car": {
+   "style": 40
+  },
+  "cart": {
+   "style": 40
+  },
+  "coral": {
+   "style": 20
+  },
+  "cow": {
+   "suffix": "!"
+  },
+  "crutch": {
+   "style": 40,
+   "suffix": "!"
+  },
+  "dizzy": {
+   "style": 40
+  },
+  "first": {
+   "style": 40
+  },
+  "flute": {
+   "suffix": "!"
+  },
+  "heart": {
+   "style": 40
+  },
+  "into": {
+   "style": 40
+  },
+  "sandcastle": {
+   "style": 40
+  },
+  "seagull": {
+   "style": 40
+  },
+  "shark": {
+   "style": 40
+  },
+  "sofa": {
+   "style": 20
+  },
+  "sweet": {
+   "style": 100
+  },
+  "syringe": {
+   "style": 100
+  },
+  "tea": {
+   "style": 20
+  },
+  "tomato": {
+   "style": 40
+  },
+  "you": {
+   "speed": 0.85,
+   "style": 40
+  }
+ }
+}

@@ -7,7 +7,7 @@ Pig-English: 用 Microsoft Edge TTS (Azure neural voice) 生成所有預錄音�
 
 Usage:
     pip install edge-tts
-    cd /Users/jerry.wu/Project/Pig-English
+    cd <pig-english repo>
     python scripts/generate_tts_local.py
 
 輸出位置：public/audio/{letters|numbers|praise|words}/*.mp3

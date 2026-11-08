@@ -1,0 +1,2078 @@
+[
+	{
+		"category": "word",
+		"slug": "cat",
+		"text": "cat"
+	},
+	{
+		"category": "word",
+		"slug": "dog",
+		"text": "dog"
+	},
+	{
+		"category": "word",
+		"slug": "fish",
+		"text": "fish"
+	},
+	{
+		"category": "word",
+		"slug": "bird",
+		"text": "bird"
+	},
+	{
+		"category": "word",
+		"slug": "rabbit",
+		"text": "rabbit"
+	},
+	{
+		"category": "word",
+		"slug": "pig",
+		"text": "pig"
+	},
+	{
+		"category": "word",
+		"slug": "cow",
+		"text": "cow"
+	},
+	{
+		"category": "word",
+		"slug": "duck",
+		"text": "duck"
+	},
+	{
+		"category": "word",
+		"slug": "bee",
+		"text": "bee"
+	},
+	{
+		"category": "word",
+		"slug": "ant",
+		"text": "ant"
+	},
+	{
+		"category": "word",
+		"slug": "apple",
+		"text": "apple"
+	},
+	{
+		"category": "word",
+		"slug": "banana",
+		"text": "banana"
+	},
+	{
+		"category": "word",
+		"slug": "grape",
+		"text": "grape"
+	},
+	{
+		"category": "word",
+		"slug": "orange",
+		"text": "orange"
+	},
+	{
+		"category": "word",
+		"slug": "strawberry",
+		"text": "strawberry"
+	},
+	{
+		"category": "word",
+		"slug": "bread",
+		"text": "bread"
+	},
+	{
+		"category": "word",
+		"slug": "rice",
+		"text": "rice"
+	},
+	{
+		"category": "word",
+		"slug": "egg",
+		"text": "egg"
+	},
+	{
+		"category": "word",
+		"slug": "cake",
+		"text": "cake"
+	},
+	{
+		"category": "word",
+		"slug": "cookie",
+		"text": "cookie"
+	},
+	{
+		"category": "word",
+		"slug": "noodle",
+		"text": "noodle"
+	},
+	{
+		"category": "word",
+		"slug": "water",
+		"text": "water"
+	},
+	{
+		"category": "word",
+		"slug": "milk",
+		"text": "milk"
+	},
+	{
+		"category": "word",
+		"slug": "juice",
+		"text": "juice"
+	},
+	{
+		"category": "word",
+		"slug": "tea",
+		"text": "tea"
+	},
+	{
+		"category": "word",
+		"slug": "cup",
+		"text": "cup"
+	},
+	{
+		"category": "word",
+		"slug": "spoon",
+		"text": "spoon"
+	},
+	{
+		"category": "word",
+		"slug": "fork",
+		"text": "fork"
+	},
+	{
+		"category": "word",
+		"slug": "plate",
+		"text": "plate"
+	},
+	{
+		"category": "word",
+		"slug": "bowl",
+		"text": "bowl"
+	},
+	{
+		"category": "word",
+		"slug": "chair",
+		"text": "chair"
+	},
+	{
+		"category": "word",
+		"slug": "bed",
+		"text": "bed"
+	},
+	{
+		"category": "word",
+		"slug": "sofa",
+		"text": "sofa"
+	},
+	{
+		"category": "word",
+		"slug": "lamp",
+		"text": "lamp"
+	},
+	{
+		"category": "word",
+		"slug": "door",
+		"text": "door"
+	},
+	{
+		"category": "word",
+		"slug": "clock",
+		"text": "clock"
+	},
+	{
+		"category": "word",
+		"slug": "key",
+		"text": "key"
+	},
+	{
+		"category": "word",
+		"slug": "tv",
+		"text": "TV",
+		"spoken": "T.V."
+	},
+	{
+		"category": "word",
+		"slug": "phone",
+		"text": "phone"
+	},
+	{
+		"category": "word",
+		"slug": "soap",
+		"text": "soap"
+	},
+	{
+		"category": "word",
+		"slug": "towel",
+		"text": "towel"
+	},
+	{
+		"category": "word",
+		"slug": "toothbrush",
+		"text": "toothbrush"
+	},
+	{
+		"category": "word",
+		"slug": "hat",
+		"text": "hat"
+	},
+	{
+		"category": "word",
+		"slug": "shirt",
+		"text": "shirt"
+	},
+	{
+		"category": "word",
+		"slug": "pants",
+		"text": "pants"
+	},
+	{
+		"category": "word",
+		"slug": "shoes",
+		"text": "shoes"
+	},
+	{
+		"category": "word",
+		"slug": "socks",
+		"text": "socks"
+	},
+	{
+		"category": "word",
+		"slug": "bag",
+		"text": "bag"
+	},
+	{
+		"category": "word",
+		"slug": "ball",
+		"text": "ball"
+	},
+	{
+		"category": "word",
+		"slug": "doll",
+		"text": "doll"
+	},
+	{
+		"category": "word",
+		"slug": "blocks",
+		"text": "blocks"
+	},
+	{
+		"category": "word",
+		"slug": "kite",
+		"text": "kite"
+	},
+	{
+		"category": "word",
+		"slug": "drum",
+		"text": "drum"
+	},
+	{
+		"category": "word",
+		"slug": "book",
+		"text": "book"
+	},
+	{
+		"category": "word",
+		"slug": "pen",
+		"text": "pen"
+	},
+	{
+		"category": "word",
+		"slug": "pencil",
+		"text": "pencil"
+	},
+	{
+		"category": "word",
+		"slug": "desk",
+		"text": "desk"
+	},
+	{
+		"category": "word",
+		"slug": "scissors",
+		"text": "scissors"
+	},
+	{
+		"category": "word",
+		"slug": "tree",
+		"text": "tree"
+	},
+	{
+		"category": "word",
+		"slug": "flower",
+		"text": "flower"
+	},
+	{
+		"category": "word",
+		"slug": "grass",
+		"text": "grass"
+	},
+	{
+		"category": "word",
+		"slug": "leaf",
+		"text": "leaf"
+	},
+	{
+		"category": "word",
+		"slug": "rock",
+		"text": "rock"
+	},
+	{
+		"category": "word",
+		"slug": "sun",
+		"text": "sun"
+	},
+	{
+		"category": "word",
+		"slug": "moon",
+		"text": "moon"
+	},
+	{
+		"category": "word",
+		"slug": "star",
+		"text": "star"
+	},
+	{
+		"category": "word",
+		"slug": "cloud",
+		"text": "cloud"
+	},
+	{
+		"category": "word",
+		"slug": "rain",
+		"text": "rain"
+	},
+	{
+		"category": "word",
+		"slug": "snow",
+		"text": "snow"
+	},
+	{
+		"category": "word",
+		"slug": "wind",
+		"text": "wind"
+	},
+	{
+		"category": "word",
+		"slug": "car",
+		"text": "car"
+	},
+	{
+		"category": "word",
+		"slug": "bus",
+		"text": "bus"
+	},
+	{
+		"category": "word",
+		"slug": "bike",
+		"text": "bike"
+	},
+	{
+		"category": "word",
+		"slug": "boat",
+		"text": "boat"
+	},
+	{
+		"category": "word",
+		"slug": "plane",
+		"text": "plane"
+	},
+	{
+		"category": "word",
+		"slug": "train",
+		"text": "train"
+	},
+	{
+		"category": "word",
+		"slug": "red",
+		"text": "red"
+	},
+	{
+		"category": "word",
+		"slug": "blue",
+		"text": "blue"
+	},
+	{
+		"category": "word",
+		"slug": "green",
+		"text": "green"
+	},
+	{
+		"category": "word",
+		"slug": "yellow",
+		"text": "yellow"
+	},
+	{
+		"category": "word",
+		"slug": "black",
+		"text": "black"
+	},
+	{
+		"category": "word",
+		"slug": "white",
+		"text": "white"
+	},
+	{
+		"category": "word",
+		"slug": "pink",
+		"text": "pink"
+	},
+	{
+		"category": "word",
+		"slug": "purple",
+		"text": "purple"
+	},
+	{
+		"category": "word",
+		"slug": "brown",
+		"text": "brown"
+	},
+	{
+		"category": "word",
+		"slug": "circle",
+		"text": "circle"
+	},
+	{
+		"category": "word",
+		"slug": "square",
+		"text": "square"
+	},
+	{
+		"category": "word",
+		"slug": "triangle",
+		"text": "triangle"
+	},
+	{
+		"category": "word",
+		"slug": "heart",
+		"text": "heart"
+	},
+	{
+		"category": "word",
+		"slug": "one",
+		"text": "one"
+	},
+	{
+		"category": "word",
+		"slug": "two",
+		"text": "two"
+	},
+	{
+		"category": "word",
+		"slug": "three",
+		"text": "three"
+	},
+	{
+		"category": "word",
+		"slug": "four",
+		"text": "four"
+	},
+	{
+		"category": "word",
+		"slug": "five",
+		"text": "five"
+	},
+	{
+		"category": "word",
+		"slug": "six",
+		"text": "six"
+	},
+	{
+		"category": "word",
+		"slug": "seven",
+		"text": "seven"
+	},
+	{
+		"category": "word",
+		"slug": "eight",
+		"text": "eight"
+	},
+	{
+		"category": "word",
+		"slug": "nine",
+		"text": "nine"
+	},
+	{
+		"category": "word",
+		"slug": "ten",
+		"text": "ten"
+	},
+	{
+		"category": "word",
+		"slug": "mom",
+		"text": "mom"
+	},
+	{
+		"category": "word",
+		"slug": "dad",
+		"text": "dad"
+	},
+	{
+		"category": "word",
+		"slug": "baby",
+		"text": "baby"
+	},
+	{
+		"category": "word",
+		"slug": "sister",
+		"text": "sister"
+	},
+	{
+		"category": "word",
+		"slug": "brother",
+		"text": "brother"
+	},
+	{
+		"category": "word",
+		"slug": "grandma",
+		"text": "grandma"
+	},
+	{
+		"category": "word",
+		"slug": "grandpa",
+		"text": "grandpa"
+	},
+	{
+		"category": "word",
+		"slug": "eye",
+		"text": "eye"
+	},
+	{
+		"category": "word",
+		"slug": "ear",
+		"text": "ear"
+	},
+	{
+		"category": "word",
+		"slug": "nose",
+		"text": "nose"
+	},
+	{
+		"category": "word",
+		"slug": "mouth",
+		"text": "mouth"
+	},
+	{
+		"category": "word",
+		"slug": "hand",
+		"text": "hand"
+	},
+	{
+		"category": "word",
+		"slug": "foot",
+		"text": "foot"
+	},
+	{
+		"category": "word",
+		"slug": "head",
+		"text": "head"
+	},
+	{
+		"category": "word",
+		"slug": "hair",
+		"text": "hair"
+	},
+	{
+		"category": "word",
+		"slug": "eat",
+		"text": "eat"
+	},
+	{
+		"category": "word",
+		"slug": "drink",
+		"text": "drink"
+	},
+	{
+		"category": "word",
+		"slug": "sit",
+		"text": "sit"
+	},
+	{
+		"category": "word",
+		"slug": "stand",
+		"text": "stand"
+	},
+	{
+		"category": "word",
+		"slug": "run",
+		"text": "run"
+	},
+	{
+		"category": "word",
+		"slug": "walk",
+		"text": "walk"
+	},
+	{
+		"category": "word",
+		"slug": "jump",
+		"text": "jump"
+	},
+	{
+		"category": "word",
+		"slug": "sleep",
+		"text": "sleep"
+	},
+	{
+		"category": "word",
+		"slug": "wash",
+		"text": "wash"
+	},
+	{
+		"category": "word",
+		"slug": "sing",
+		"text": "sing"
+	},
+	{
+		"category": "word",
+		"slug": "play",
+		"text": "play"
+	},
+	{
+		"category": "word",
+		"slug": "hello",
+		"text": "hello"
+	},
+	{
+		"category": "word",
+		"slug": "bye",
+		"text": "bye"
+	},
+	{
+		"category": "word",
+		"slug": "yes",
+		"text": "yes"
+	},
+	{
+		"category": "word",
+		"slug": "no",
+		"text": "no"
+	},
+	{
+		"category": "word",
+		"slug": "please",
+		"text": "please"
+	},
+	{
+		"category": "word",
+		"slug": "sorry",
+		"text": "sorry"
+	},
+	{
+		"category": "word",
+		"slug": "thanks",
+		"text": "thanks"
+	},
+	{
+		"category": "word",
+		"slug": "good",
+		"text": "good"
+	},
+	{
+		"category": "word",
+		"slug": "big",
+		"text": "big"
+	},
+	{
+		"category": "word",
+		"slug": "small",
+		"text": "small"
+	},
+	{
+		"category": "word",
+		"slug": "hot",
+		"text": "hot"
+	},
+	{
+		"category": "word",
+		"slug": "cold",
+		"text": "cold"
+	},
+	{
+		"category": "word",
+		"slug": "happy",
+		"text": "happy"
+	},
+	{
+		"category": "word",
+		"slug": "sad",
+		"text": "sad"
+	},
+	{
+		"category": "word",
+		"slug": "carrot",
+		"text": "carrot"
+	},
+	{
+		"category": "word",
+		"slug": "broccoli",
+		"text": "broccoli"
+	},
+	{
+		"category": "word",
+		"slug": "tomato",
+		"text": "tomato"
+	},
+	{
+		"category": "word",
+		"slug": "corn",
+		"text": "corn"
+	},
+	{
+		"category": "word",
+		"slug": "pizza",
+		"text": "pizza"
+	},
+	{
+		"category": "word",
+		"slug": "candy",
+		"text": "candy"
+	},
+	{
+		"category": "word",
+		"slug": "bath",
+		"text": "bath"
+	},
+	{
+		"category": "word",
+		"slug": "butterfly",
+		"text": "butterfly"
+	},
+	{
+		"category": "word",
+		"slug": "ladybug",
+		"text": "ladybug"
+	},
+	{
+		"category": "word",
+		"slug": "frog",
+		"text": "frog"
+	},
+	{
+		"category": "word",
+		"slug": "turtle",
+		"text": "turtle"
+	},
+	{
+		"category": "word",
+		"slug": "horse",
+		"text": "horse"
+	},
+	{
+		"category": "word",
+		"slug": "sheep",
+		"text": "sheep"
+	},
+	{
+		"category": "word",
+		"slug": "lion",
+		"text": "lion"
+	},
+	{
+		"category": "word",
+		"slug": "tiger",
+		"text": "tiger"
+	},
+	{
+		"category": "word",
+		"slug": "elephant",
+		"text": "elephant"
+	},
+	{
+		"category": "word",
+		"slug": "giraffe",
+		"text": "giraffe"
+	},
+	{
+		"category": "word",
+		"slug": "chicken",
+		"text": "chicken"
+	},
+	{
+		"category": "word",
+		"slug": "slide",
+		"text": "slide"
+	},
+	{
+		"category": "word",
+		"slug": "balloon",
+		"text": "balloon"
+	},
+	{
+		"category": "word",
+		"slug": "school",
+		"text": "school"
+	},
+	{
+		"category": "word",
+		"slug": "plus",
+		"text": "plus"
+	},
+	{
+		"category": "word",
+		"slug": "rainbow",
+		"text": "rainbow"
+	},
+	{
+		"category": "word",
+		"slug": "rocket",
+		"text": "rocket"
+	},
+	{
+		"category": "word",
+		"slug": "red-envelope",
+		"text": "red envelope"
+	},
+	{
+		"category": "word",
+		"slug": "firecracker",
+		"text": "firecracker"
+	},
+	{
+		"category": "word",
+		"slug": "hot-pot",
+		"text": "hot pot"
+	},
+	{
+		"category": "word",
+		"slug": "dragon-boat",
+		"text": "dragon boat"
+	},
+	{
+		"category": "word",
+		"slug": "rice-dumpling",
+		"text": "rice dumpling"
+	},
+	{
+		"category": "word",
+		"slug": "moon-cake",
+		"text": "moon cake"
+	},
+	{
+		"category": "word",
+		"slug": "barbecue",
+		"text": "barbecue"
+	},
+	{
+		"category": "word",
+		"slug": "santa-claus",
+		"text": "Santa Claus"
+	},
+	{
+		"category": "word",
+		"slug": "snowman",
+		"text": "snowman"
+	},
+	{
+		"category": "word",
+		"slug": "christmas-tree",
+		"text": "Christmas tree"
+	},
+	{
+		"category": "word",
+		"slug": "mother-s-day",
+		"text": "Mother's Day"
+	},
+	{
+		"category": "word",
+		"slug": "father-s-day",
+		"text": "Father's Day"
+	},
+	{
+		"category": "word",
+		"slug": "valentine",
+		"text": "Valentine"
+	},
+	{
+		"category": "word",
+		"slug": "halloween",
+		"text": "Halloween"
+	},
+	{
+		"category": "word",
+		"slug": "clown",
+		"text": "clown"
+	},
+	{
+		"category": "word",
+		"slug": "ballerina",
+		"text": "ballerina"
+	},
+	{
+		"category": "word",
+		"slug": "magician",
+		"text": "magician"
+	},
+	{
+		"category": "word",
+		"slug": "acrobat",
+		"text": "acrobat"
+	},
+	{
+		"category": "word",
+		"slug": "musician",
+		"text": "musician"
+	},
+	{
+		"category": "word",
+		"slug": "astronaut",
+		"text": "astronaut"
+	},
+	{
+		"category": "word",
+		"slug": "pilot",
+		"text": "pilot"
+	},
+	{
+		"category": "word",
+		"slug": "postman",
+		"text": "postman"
+	},
+	{
+		"category": "word",
+		"slug": "athlete",
+		"text": "athlete"
+	},
+	{
+		"category": "word",
+		"slug": "doctor",
+		"text": "doctor"
+	},
+	{
+		"category": "word",
+		"slug": "scientist",
+		"text": "scientist"
+	},
+	{
+		"category": "word",
+		"slug": "artist",
+		"text": "artist"
+	},
+	{
+		"category": "word",
+		"slug": "gardener",
+		"text": "gardener"
+	},
+	{
+		"category": "word",
+		"slug": "cook",
+		"text": "cook"
+	},
+	{
+		"category": "word",
+		"slug": "architect",
+		"text": "architect"
+	},
+	{
+		"category": "word",
+		"slug": "police",
+		"text": "police"
+	},
+	{
+		"category": "word",
+		"slug": "soldier",
+		"text": "soldier"
+	},
+	{
+		"category": "word",
+		"slug": "firefighter",
+		"text": "firefighter"
+	},
+	{
+		"category": "word",
+		"slug": "judge",
+		"text": "judge"
+	},
+	{
+		"category": "word",
+		"slug": "vet",
+		"text": "vet"
+	},
+	{
+		"category": "word",
+		"slug": "ambulance",
+		"text": "ambulance"
+	},
+	{
+		"category": "word",
+		"slug": "medicine",
+		"text": "medicine"
+	},
+	{
+		"category": "word",
+		"slug": "bandage",
+		"text": "bandage"
+	},
+	{
+		"category": "word",
+		"slug": "wheelchair",
+		"text": "wheelchair"
+	},
+	{
+		"category": "word",
+		"slug": "patient",
+		"text": "patient"
+	},
+	{
+		"category": "word",
+		"slug": "stethoscope",
+		"text": "stethoscope"
+	},
+	{
+		"category": "word",
+		"slug": "mask",
+		"text": "mask"
+	},
+	{
+		"category": "word",
+		"slug": "cough",
+		"text": "cough"
+	},
+	{
+		"category": "word",
+		"slug": "syringe",
+		"text": "syringe"
+	},
+	{
+		"category": "word",
+		"slug": "dizzy",
+		"text": "dizzy"
+	},
+	{
+		"category": "word",
+		"slug": "runny-nose",
+		"text": "runny nose"
+	},
+	{
+		"category": "word",
+		"slug": "registration",
+		"text": "registration"
+	},
+	{
+		"category": "word",
+		"slug": "crutch",
+		"text": "crutch"
+	},
+	{
+		"category": "word",
+		"slug": "thermometer",
+		"text": "thermometer"
+	},
+	{
+		"category": "word",
+		"slug": "crab",
+		"text": "crab"
+	},
+	{
+		"category": "word",
+		"slug": "sashimi",
+		"text": "sashimi"
+	},
+	{
+		"category": "word",
+		"slug": "beef",
+		"text": "beef"
+	},
+	{
+		"category": "word",
+		"slug": "washing-machine",
+		"text": "washing machine"
+	},
+	{
+		"category": "word",
+		"slug": "fan",
+		"text": "fan"
+	},
+	{
+		"category": "word",
+		"slug": "vacuum",
+		"text": "vacuum"
+	},
+	{
+		"category": "word",
+		"slug": "mango",
+		"text": "mango"
+	},
+	{
+		"category": "word",
+		"slug": "chocolate",
+		"text": "chocolate"
+	},
+	{
+		"category": "word",
+		"slug": "salt",
+		"text": "salt"
+	},
+	{
+		"category": "word",
+		"slug": "soy-sauce",
+		"text": "soy sauce"
+	},
+	{
+		"category": "word",
+		"slug": "sugar",
+		"text": "sugar"
+	},
+	{
+		"category": "word",
+		"slug": "cart",
+		"text": "cart"
+	},
+	{
+		"category": "word",
+		"slug": "cashier",
+		"text": "cashier"
+	},
+	{
+		"category": "word",
+		"slug": "checkout",
+		"text": "checkout"
+	},
+	{
+		"category": "word",
+		"slug": "polar-bear",
+		"text": "polar bear"
+	},
+	{
+		"category": "word",
+		"slug": "penguin",
+		"text": "penguin"
+	},
+	{
+		"category": "word",
+		"slug": "sea-otter",
+		"text": "sea otter"
+	},
+	{
+		"category": "word",
+		"slug": "sea-lion",
+		"text": "sea lion"
+	},
+	{
+		"category": "word",
+		"slug": "starfish",
+		"text": "starfish"
+	},
+	{
+		"category": "word",
+		"slug": "shrimp",
+		"text": "shrimp"
+	},
+	{
+		"category": "word",
+		"slug": "octopus",
+		"text": "octopus"
+	},
+	{
+		"category": "word",
+		"slug": "dolphin",
+		"text": "dolphin"
+	},
+	{
+		"category": "word",
+		"slug": "squid",
+		"text": "squid"
+	},
+	{
+		"category": "word",
+		"slug": "pufferfish",
+		"text": "pufferfish"
+	},
+	{
+		"category": "word",
+		"slug": "jellyfish",
+		"text": "jellyfish"
+	},
+	{
+		"category": "word",
+		"slug": "whale",
+		"text": "whale"
+	},
+	{
+		"category": "word",
+		"slug": "coral",
+		"text": "coral"
+	},
+	{
+		"category": "word",
+		"slug": "anemone",
+		"text": "anemone"
+	},
+	{
+		"category": "word",
+		"slug": "eel",
+		"text": "eel"
+	},
+	{
+		"category": "word",
+		"slug": "shark",
+		"text": "shark"
+	},
+	{
+		"category": "word",
+		"slug": "france",
+		"text": "France"
+	},
+	{
+		"category": "word",
+		"slug": "finland",
+		"text": "Finland"
+	},
+	{
+		"category": "word",
+		"slug": "japan",
+		"text": "Japan"
+	},
+	{
+		"category": "word",
+		"slug": "russia",
+		"text": "Russia"
+	},
+	{
+		"category": "word",
+		"slug": "great-wall",
+		"text": "Great Wall"
+	},
+	{
+		"category": "word",
+		"slug": "india",
+		"text": "India"
+	},
+	{
+		"category": "word",
+		"slug": "kenya",
+		"text": "Kenya"
+	},
+	{
+		"category": "word",
+		"slug": "america",
+		"text": "America"
+	},
+	{
+		"category": "word",
+		"slug": "mexico",
+		"text": "Mexico"
+	},
+	{
+		"category": "word",
+		"slug": "brazil",
+		"text": "Brazil"
+	},
+	{
+		"category": "word",
+		"slug": "australia",
+		"text": "Australia"
+	},
+	{
+		"category": "word",
+		"slug": "taiwan",
+		"text": "Taiwan"
+	},
+	{
+		"category": "word",
+		"slug": "antarctica",
+		"text": "Antarctica"
+	},
+	{
+		"category": "word",
+		"slug": "conductor",
+		"text": "conductor"
+	},
+	{
+		"category": "word",
+		"slug": "violin",
+		"text": "violin"
+	},
+	{
+		"category": "word",
+		"slug": "saxophone",
+		"text": "saxophone"
+	},
+	{
+		"category": "word",
+		"slug": "trumpet",
+		"text": "trumpet"
+	},
+	{
+		"category": "word",
+		"slug": "piano",
+		"text": "piano"
+	},
+	{
+		"category": "word",
+		"slug": "banjo",
+		"text": "banjo"
+	},
+	{
+		"category": "word",
+		"slug": "guitar",
+		"text": "guitar"
+	},
+	{
+		"category": "word",
+		"slug": "accordion",
+		"text": "accordion"
+	},
+	{
+		"category": "word",
+		"slug": "long-drum",
+		"text": "long drum"
+	},
+	{
+		"category": "word",
+		"slug": "microphone",
+		"text": "microphone"
+	},
+	{
+		"category": "word",
+		"slug": "headphones",
+		"text": "headphones"
+	},
+	{
+		"category": "word",
+		"slug": "notes",
+		"text": "notes"
+	},
+	{
+		"category": "word",
+		"slug": "flute",
+		"text": "flute"
+	},
+	{
+		"category": "word",
+		"slug": "theater",
+		"text": "theater"
+	},
+	{
+		"category": "word",
+		"slug": "ballet",
+		"text": "ballet"
+	},
+	{
+		"category": "word",
+		"slug": "juggle",
+		"text": "juggle"
+	},
+	{
+		"category": "word",
+		"slug": "audience",
+		"text": "audience"
+	},
+	{
+		"category": "word",
+		"slug": "bouquet",
+		"text": "bouquet"
+	},
+	{
+		"category": "word",
+		"slug": "seagull",
+		"text": "seagull"
+	},
+	{
+		"category": "word",
+		"slug": "sailboat",
+		"text": "sailboat"
+	},
+	{
+		"category": "word",
+		"slug": "speedboat",
+		"text": "speedboat"
+	},
+	{
+		"category": "word",
+		"slug": "lobster",
+		"text": "lobster"
+	},
+	{
+		"category": "word",
+		"slug": "shell",
+		"text": "shell"
+	},
+	{
+		"category": "word",
+		"slug": "beach",
+		"text": "beach"
+	},
+	{
+		"category": "word",
+		"slug": "umbrella",
+		"text": "umbrella"
+	},
+	{
+		"category": "word",
+		"slug": "flip-flops",
+		"text": "flip flops"
+	},
+	{
+		"category": "word",
+		"slug": "palm-tree",
+		"text": "palm tree"
+	},
+	{
+		"category": "word",
+		"slug": "bucket",
+		"text": "bucket"
+	},
+	{
+		"category": "word",
+		"slug": "sandcastle",
+		"text": "sandcastle"
+	},
+	{
+		"category": "word",
+		"slug": "swimsuit",
+		"text": "swimsuit"
+	},
+	{
+		"category": "word",
+		"slug": "goggles",
+		"text": "goggles"
+	},
+	{
+		"category": "word",
+		"slug": "ice-cream",
+		"text": "ice cream"
+	},
+	{
+		"category": "word",
+		"slug": "bell",
+		"text": "bell"
+	},
+	{
+		"category": "word",
+		"slug": "chef",
+		"text": "chef"
+	},
+	{
+		"category": "word",
+		"slug": "menu",
+		"text": "menu"
+	},
+	{
+		"category": "word",
+		"slug": "spaghetti",
+		"text": "spaghetti"
+	},
+	{
+		"category": "word",
+		"slug": "salad",
+		"text": "salad"
+	},
+	{
+		"category": "word",
+		"slug": "burger",
+		"text": "burger"
+	},
+	{
+		"category": "word",
+		"slug": "fries",
+		"text": "fries"
+	},
+	{
+		"category": "word",
+		"slug": "taco",
+		"text": "taco"
+	},
+	{
+		"category": "word",
+		"slug": "chopsticks",
+		"text": "chopsticks"
+	},
+	{
+		"category": "word",
+		"slug": "sundae",
+		"text": "sundae"
+	},
+	{
+		"category": "word",
+		"slug": "pudding",
+		"text": "pudding"
+	},
+	{
+		"category": "word",
+		"slug": "cupcake",
+		"text": "cupcake"
+	},
+	{
+		"category": "word",
+		"slug": "coffee",
+		"text": "coffee"
+	},
+	{
+		"category": "word",
+		"slug": "friend",
+		"text": "friend"
+	},
+	{
+		"category": "word",
+		"slug": "boy",
+		"text": "boy"
+	},
+	{
+		"category": "word",
+		"slug": "girl",
+		"text": "girl"
+	},
+	{
+		"category": "word",
+		"slug": "dream",
+		"text": "dream"
+	},
+	{
+		"category": "word",
+		"slug": "angry",
+		"text": "angry"
+	},
+	{
+		"category": "word",
+		"slug": "scared",
+		"text": "scared"
+	},
+	{
+		"category": "word",
+		"slug": "excited",
+		"text": "excited"
+	},
+	{
+		"category": "word",
+		"slug": "tired",
+		"text": "tired"
+	},
+	{
+		"category": "word",
+		"slug": "funny",
+		"text": "funny"
+	},
+	{
+		"category": "word",
+		"slug": "smile",
+		"text": "smile"
+	},
+	{
+		"category": "word",
+		"slug": "kiss",
+		"text": "kiss"
+	},
+	{
+		"category": "word",
+		"slug": "hug",
+		"text": "hug"
+	},
+	{
+		"category": "word",
+		"slug": "house",
+		"text": "house"
+	},
+	{
+		"category": "word",
+		"slug": "ice",
+		"text": "ice"
+	},
+	{
+		"category": "word",
+		"slug": "queen",
+		"text": "queen"
+	},
+	{
+		"category": "word",
+		"slug": "van",
+		"text": "van"
+	},
+	{
+		"category": "word",
+		"slug": "box",
+		"text": "box"
+	},
+	{
+		"category": "word",
+		"slug": "zebra",
+		"text": "zebra"
+	},
+	{
+		"category": "word",
+		"slug": "x-ray",
+		"text": "x-ray"
+	},
+	{
+		"category": "word",
+		"slug": "january",
+		"text": "January"
+	},
+	{
+		"category": "word",
+		"slug": "february",
+		"text": "February"
+	},
+	{
+		"category": "word",
+		"slug": "march",
+		"text": "March"
+	},
+	{
+		"category": "word",
+		"slug": "april",
+		"text": "April"
+	},
+	{
+		"category": "word",
+		"slug": "may",
+		"text": "May"
+	},
+	{
+		"category": "word",
+		"slug": "june",
+		"text": "June"
+	},
+	{
+		"category": "word",
+		"slug": "july",
+		"text": "July"
+	},
+	{
+		"category": "word",
+		"slug": "august",
+		"text": "August"
+	},
+	{
+		"category": "word",
+		"slug": "september",
+		"text": "September"
+	},
+	{
+		"category": "word",
+		"slug": "october",
+		"text": "October"
+	},
+	{
+		"category": "word",
+		"slug": "november",
+		"text": "November"
+	},
+	{
+		"category": "word",
+		"slug": "december",
+		"text": "December"
+	},
+	{
+		"category": "word",
+		"slug": "monday",
+		"text": "Monday"
+	},
+	{
+		"category": "word",
+		"slug": "tuesday",
+		"text": "Tuesday"
+	},
+	{
+		"category": "word",
+		"slug": "wednesday",
+		"text": "Wednesday"
+	},
+	{
+		"category": "word",
+		"slug": "thursday",
+		"text": "Thursday"
+	},
+	{
+		"category": "word",
+		"slug": "friday",
+		"text": "Friday"
+	},
+	{
+		"category": "word",
+		"slug": "saturday",
+		"text": "Saturday"
+	},
+	{
+		"category": "word",
+		"slug": "sunday",
+		"text": "Sunday"
+	},
+	{
+		"category": "word",
+		"slug": "spring",
+		"text": "Spring"
+	},
+	{
+		"category": "word",
+		"slug": "summer",
+		"text": "Summer"
+	},
+	{
+		"category": "word",
+		"slug": "autumn",
+		"text": "Autumn"
+	},
+	{
+		"category": "word",
+		"slug": "winter",
+		"text": "Winter"
+	},
+	{
+		"category": "world",
+		"slug": "living-room",
+		"text": "Living Room"
+	},
+	{
+		"category": "world",
+		"slug": "bedroom",
+		"text": "Bedroom"
+	},
+	{
+		"category": "world",
+		"slug": "kitchen",
+		"text": "Kitchen"
+	},
+	{
+		"category": "world",
+		"slug": "my-body",
+		"text": "My Body"
+	},
+	{
+		"category": "world",
+		"slug": "playground",
+		"text": "Playground"
+	},
+	{
+		"category": "world",
+		"slug": "zoo",
+		"text": "Zoo"
+	},
+	{
+		"category": "world",
+		"slug": "on-the-road",
+		"text": "On the Road"
+	},
+	{
+		"category": "world",
+		"slug": "outdoor-park",
+		"text": "Outdoor Park"
+	},
+	{
+		"category": "world",
+		"slug": "kindergarten",
+		"text": "Kindergarten"
+	},
+	{
+		"category": "world",
+		"slug": "math-world",
+		"text": "Math World"
+	},
+	{
+		"category": "world",
+		"slug": "farm",
+		"text": "Farm"
+	},
+	{
+		"category": "world",
+		"slug": "rainbow-treehouse",
+		"text": "Rainbow Treehouse"
+	},
+	{
+		"category": "praise",
+		"slug": "great-job",
+		"text": "Great job!"
+	},
+	{
+		"category": "praise",
+		"slug": "awesome",
+		"text": "Awesome!"
+	},
+	{
+		"category": "praise",
+		"slug": "well-done",
+		"text": "Well done!"
+	},
+	{
+		"category": "praise",
+		"slug": "perfect",
+		"text": "Perfect!"
+	},
+	{
+		"category": "praise",
+		"slug": "yay",
+		"text": "Yay!"
+	},
+	{
+		"category": "praise",
+		"slug": "try-again",
+		"text": "Try again"
+	},
+	{
+		"category": "praise",
+		"slug": "amazing",
+		"text": "Amazing!"
+	},
+	{
+		"category": "praise",
+		"slug": "good-try",
+		"text": "Good try!"
+	},
+	{
+		"category": "story",
+		"slug": "it",
+		"text": "It"
+	},
+	{
+		"category": "story",
+		"slug": "is",
+		"text": "is"
+	},
+	{
+		"category": "story",
+		"slug": "night",
+		"text": "night"
+	},
+	{
+		"category": "story",
+		"slug": "time",
+		"text": "time"
+	},
+	{
+		"category": "story",
+		"slug": "first",
+		"text": "First"
+	},
+	{
+		"category": "story",
+		"slug": "take",
+		"text": "take"
+	},
+	{
+		"category": "story",
+		"slug": "then",
+		"text": "Then"
+	},
+	{
+		"category": "story",
+		"slug": "brush",
+		"text": "brush"
+	},
+	{
+		"category": "story",
+		"slug": "my",
+		"text": "my"
+	},
+	{
+		"category": "story",
+		"slug": "teeth",
+		"text": "teeth"
+	},
+	{
+		"category": "story",
+		"slug": "put",
+		"text": "put"
+	},
+	{
+		"category": "story",
+		"slug": "on",
+		"text": "on"
+	},
+	{
+		"category": "story",
+		"slug": "pajamas",
+		"text": "pajamas"
+	},
+	{
+		"category": "story",
+		"slug": "reads",
+		"text": "reads"
+	},
+	{
+		"category": "story",
+		"slug": "me",
+		"text": "me"
+	},
+	{
+		"category": "story",
+		"slug": "story",
+		"text": "story"
+	},
+	{
+		"category": "story",
+		"slug": "get",
+		"text": "get"
+	},
+	{
+		"category": "story",
+		"slug": "into",
+		"text": "into"
+	},
+	{
+		"category": "story",
+		"slug": "mommy",
+		"text": "Mommy"
+	},
+	{
+		"category": "story",
+		"slug": "sweet",
+		"text": "Sweet"
+	},
+	{
+		"category": "story",
+		"slug": "dreams",
+		"text": "dreams"
+	},
+	{
+		"category": "story",
+		"slug": "sunny",
+		"text": "sunny"
+	},
+	{
+		"category": "story",
+		"slug": "day",
+		"text": "day"
+	},
+	{
+		"category": "story",
+		"slug": "pack",
+		"text": "pack"
+	},
+	{
+		"category": "story",
+		"slug": "ride",
+		"text": "ride"
+	},
+	{
+		"category": "story",
+		"slug": "to",
+		"text": "to"
+	},
+	{
+		"category": "story",
+		"slug": "the",
+		"text": "the"
+	},
+	{
+		"category": "story",
+		"slug": "park",
+		"text": "park"
+	},
+	{
+		"category": "story",
+		"slug": "with",
+		"text": "with"
+	},
+	{
+		"category": "story",
+		"slug": "some",
+		"text": "some"
+	},
+	{
+		"category": "story",
+		"slug": "go",
+		"text": "go"
+	},
+	{
+		"category": "story",
+		"slug": "home",
+		"text": "home"
+	},
+	{
+		"category": "story",
+		"slug": "hi",
+		"text": "Hi"
+	},
+	{
+		"category": "story",
+		"slug": "can",
+		"text": "Can"
+	},
+	{
+		"category": "story",
+		"slug": "help",
+		"text": "help"
+	},
+	{
+		"category": "story",
+		"slug": "you",
+		"text": "you"
+	},
+	{
+		"category": "story",
+		"slug": "crack",
+		"text": "crack"
+	},
+	{
+		"category": "story",
+		"slug": "eggs",
+		"text": "eggs"
+	},
+	{
+		"category": "story",
+		"slug": "vegetables",
+		"text": "vegetables"
+	},
+	{
+		"category": "story",
+		"slug": "set",
+		"text": "set"
+	},
+	{
+		"category": "story",
+		"slug": "table",
+		"text": "table"
+	},
+	{
+		"category": "story",
+		"slug": "thank",
+		"text": "Thank"
+	},
+	{
+		"category": "story",
+		"slug": "little",
+		"text": "little"
+	},
+	{
+		"category": "story",
+		"slug": "raining",
+		"text": "raining"
+	},
+	{
+		"category": "story",
+		"slug": "outside",
+		"text": "outside"
+	},
+	{
+		"category": "story",
+		"slug": "look",
+		"text": "look"
+	},
+	{
+		"category": "story",
+		"slug": "out",
+		"text": "out"
+	},
+	{
+		"category": "story",
+		"slug": "window",
+		"text": "window"
+	},
+	{
+		"category": "story",
+		"slug": "have",
+		"text": "have"
+	},
+	{
+		"category": "story",
+		"slug": "an",
+		"text": "an"
+	},
+	{
+		"category": "story",
+		"slug": "wear",
+		"text": "wear"
+	},
+	{
+		"category": "story",
+		"slug": "boots",
+		"text": "boots"
+	},
+	{
+		"category": "story",
+		"slug": "see",
+		"text": "see"
+	},
+	{
+		"category": "story",
+		"slug": "after",
+		"text": "After"
+	}
+]

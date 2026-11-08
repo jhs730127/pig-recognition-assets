@@ -3,7 +3,7 @@
 TTS voice sampling — 產 3 個風格樣本給你試聽，挑完再回頭跑 generate_tts_local.py 全量。
 
 Usage:
-    cd /Users/jerry.wu/Project/Pig-English
+    cd <pig-english repo>
     python scripts/tts_voice_samples.py
 
 輸出：tmp/tts-samples/{young-aria,warm-jenny,calm-guy}/*.mp3

@@ -100,6 +100,16 @@ await tts.playSentence(["num_zh_5", "op_sub", "num_zh_1", "q_equals_what"]);
 
 每 voice 子目錄含 `letters/A-Z`、`numbers/one..six`、`praise/great_job 等 8 個`、`words/cat 等 ~146 個`。詳見 `audio/tts-en/README.md`。
 
+**`audio/tts-en-v2/`**（v1.8.0+）— 1,245 個 en-US MP3（3 voice × 415 句），用開源模型 **Kokoro-82M（Apache-2.0）** 生成，**MIT 授權**。取代 `audio/tts-en/`，範圍擴大到 pig-english 所有會唸的固定英文。**不含單一字母**：Kokoro 唸太短的輸入會含糊，字母請用裝置內建語音。
+
+| 資料夾 | 聲音 | 風格 |
+|---|---|---|
+| `af_heart/` | Kokoro `af_heart` | 年輕活潑 |
+| `af_bella/` | Kokoro `af_bella` | 成熟溫暖 |
+| `am_michael/` | Kokoro `am_michael` | 沉穩男聲 |
+
+結構是 `{voice}/{slug}.mp3`，清單在 `utterances.json`。詳見 `audio/tts-en-v2/README.md`。
+
 ### Fonts / 字型資料
 
 **`fonts/letter-stroke-order/`** — 52 個英文字母（A-Z + a-z）SVG path stroke order，含四線格規格。給字母筆順教學 app 用。
@@ -138,6 +148,7 @@ await tts.playSentence(["num_zh_5", "op_sub", "num_zh_1", "q_equals_what"]);
 | `scripts/train-letter/` | Letter model Colab 訓練 pipeline（EMNIST ByClass, 35 epoch on T4） |
 | `scripts/gen-tts/` | zh-TW edge-tts 預生成 MP3 Colab notebook（phase 1a sample → phase 1b 量產） |
 | `scripts/gen-tts-en/` | en-US edge-tts 本機 CPU pipeline（3 voice × 186 utterance），含 voice sampler |
+| `scripts/gen-tts-en-v2/` | en-US Kokoro-82M 本機 pipeline（Apple Silicon，mlx-audio）＋ faster-whisper 自動檢查與試聽頁 |
 
 每個 folder 內有 `README.md` 跑法說明。
 
@@ -181,6 +192,7 @@ curl -sI https://cdn.jsdelivr.net/gh/jhs730127/pig-recognition-assets@v1.1.0/mod
 | v1.6.0 | 2026-06-11 | 加 `audio/tts-zh-tw-voxcpm/` 190 MP3 — 中文 169 個 VoxCPM2 clone CC0 台灣女聲（Common Voice zh-TW 語者，Apache-2.0 + CC0 全合法商用）、英文 21 個沿用 AriaNeural。同 manifest schema，pig-math 第三個 voice pack |
 | v1.7.0 | 2026-06-28 | `audio/tts-zh-tw/`（YunJhe）與 `audio/tts-zh-tw-hsiaochen/` 各加 5 個數字建構塊：百 / 千 / 點 / 分之 / 負（manifest 190→195），讓 pig-math 能組出 0-9999 整數、小數、分數 |
 | v1.7.1 | 2026-11-08 | 授權說明更正：edge-tts 生成的音檔不在 MIT 範圍內，撤回「自由使用」說法（LICENSE、README、`audio/tts-en/README.md`、INTEGRATION.md）。音檔與 model 都沒變 |
+| v1.8.0 | 2026-11-08 | 加 `audio/tts-en-v2/` 1,245 MP3（Kokoro-82M af_heart / af_bella / am_michael × 415 句，MIT；不含單一字母）＋ `scripts/gen-tts-en-v2/`；三支舊生成腳本拿掉本機路徑 |
 
 ## 已知限制
 
